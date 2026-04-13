@@ -1,5 +1,7 @@
 # Trener Polskiego 🇵🇱
 
+<img src="icon.png" alt="App icon" width="180">
+
 A free, open-source Progressive Web App for practising Polish grammar on the way to the **B1 exam**. No account, no install required — open it in a browser and start drilling.
 
 **Live → [przypadki.com](https://www.przypadki.com)**
@@ -12,9 +14,13 @@ A free, open-source Progressive Web App for practising Polish grammar on the way
 
 ## Screenshots
 
-| Przypadki | Czas przyszły |
+| Przypadki | bym / byś / by |
 |---|---|
-| ![Przypadki screen](Screenshorts/Trener%20Polskiego%202.png) | ![Czas przyszły screen](Screenshorts/Trener%20Polskiego.png) |
+| ![Przypadki – wrong answer](Screenshorts/Trener%20Polskiego%202.png) | ![bym/byś/by – question](Screenshorts/Trener%20Polskiego%203.png) |
+
+| Czas przeszły – ą/ę | Czas przyszły – dokonany |
+|---|---|
+| ![Czas przeszły – choice](Screenshorts/Trener%20Polskiego%204.png) | ![Czas przyszły – correct answer](Screenshorts/Trener%20Polskiego.png) |
 
 ---
 
@@ -39,6 +45,30 @@ Stats (success rate, correct, errors) are tracked live within the session.
 ## Contributing
 
 Everyone is welcome to open a pull request. The most impactful contribution is **adding new questions** — no coding knowledge needed beyond editing a JSON file.
+
+### Branching strategy
+
+```
+main          ← production, always deployable
+│
+develop       ← integration branch; all features merge here first
+│
+feature/*     ← one branch per feature or question set, branched from develop
+```
+
+| Branch | Deploys to | URL |
+|---|---|---|
+| `main` | Production | https://www.przypadki.com |
+| `develop` | Development | set in `vars.DEV_URL` (GitHub repo variable) |
+| `feature/*` | — | no automatic deployment; open a PR → `develop` |
+
+**Workflow for contributors:**
+
+1. Branch off `develop`: `git checkout -b feature/my-new-module develop`
+2. Make changes (typically just `data.json`, occasionally `index.html`)
+3. Open a PR targeting **`develop`**
+4. After review and merge, `develop` auto-deploys to the dev environment for a final check
+5. A maintainer merges `develop` → `main` to release to production
 
 ### Adding questions
 
@@ -81,9 +111,9 @@ To add a new training **module**, add a new top-level key to `data.json` and a c
 | Frontend | Vanilla HTML / CSS / JavaScript — no framework, no bundler |
 | PWA | `manifest.json` — installable on iOS and Android home screens |
 | Hosting | Azure Storage static website |
-| CI/CD | GitHub Actions → `az storage blob upload-batch` on push to `main` |
+| CI/CD | GitHub Actions → `az storage blob upload-batch` on push to `main` or `develop` |
 
-There is no build step. Edit files, push to `main`, done.
+There is no build step. Edit files, push, done.
 
 ---
 
