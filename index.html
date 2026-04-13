@@ -67,18 +67,18 @@
 
         /* Вкладки (Tabs) */
         .main-tabs {
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             gap: 5px;
             margin-bottom: 10px;
             z-index: 1;
         }
         .tab-btn {
-            flex: 1;
-            padding: 10px;
+            padding: 8px 5px;
             border: none;
             background: #e5e7eb;
             border-radius: 10px;
-            font-size: 0.8rem;
+            font-size: 0.72rem;
             font-weight: 700;
             color: #6b7280;
             cursor: pointer;
@@ -195,8 +195,10 @@
 
 <div class="container">
     <div class="main-tabs">
-        <button id="tab-przypadki" class="tab-btn active" onclick="setCategory('przypadki')">Przypadki</button>
-        <button id="tab-tryb" class="tab-btn" onclick="setCategory('tryb')">bym / byś / by</button>
+        <button class="tab-btn active" data-cat="przypadki" onclick="setCategory('przypadki')">Przypadki</button>
+        <button class="tab-btn" data-cat="tryb" onclick="setCategory('tryb')">bym / byś / by</button>
+        <button class="tab-btn" data-cat="czasPrzeszly" onclick="setCategory('czasPrzeszly')">Czas przeszły</button>
+        <button class="tab-btn" data-cat="czasPrzyszly" onclick="setCategory('czasPrzyszly')">Czas przyszły</button>
     </div>
 
     <div class="stats-panel">
@@ -259,8 +261,9 @@
 
     function setCategory(cat) {
         currentCategory = cat;
-        document.getElementById('tab-przypadki').classList.toggle('active', cat === 'przypadki');
-        document.getElementById('tab-tryb').classList.toggle('active', cat === 'tryb');
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.cat === cat);
+        });
         resetGame();
     }
 
