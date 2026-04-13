@@ -1,0 +1,54 @@
+{
+    "przypadki": [
+        { "title": "Miejscownik (o kim? o czym?)", "number": "sing", "context": "Często myślę o ___.", "baseWord": "(dobry student)", "answer": "dobrym studencie", "options": ["dobrym studencie", "dobrego studenta", "dobremu studentowi", "dobry student"] },
+        { "title": "Miejscownik (o kim? o czym?)", "number": "plur", "context": "Szukamy ogłoszeń o ___ w Gdańsku.", "baseWord": "(nowe mieszkania)", "answer": "nowych mieszkaniach", "options": ["nowych mieszkaniach", "nowe mieszkania", "nowym mieszkaniu", "nowymi mieszkaniami"] },
+        { "title": "Narzędnik (z kim? z czym?)", "number": "sing", "context": "Idę na spacer z ___.", "baseWord": "(dobra studentka)", "answer": "dobrą studentką", "options": ["dobrą studentką", "dobrej studentki", "dobra studentka", "dobrą studentkę"] },
+        { "title": "Narzędnik (z kim? z czym?)", "number": "plur", "context": "Interesuję się ___.", "baseWord": "(nowe mieszkania)", "answer": "nowymi mieszkaniami", "options": ["nowymi mieszkaniami", "nowych mieszkań", "nowe mieszkania", "nowym mieszkaniu"] },
+        { "title": "Dopełniacz (kogo? czego?)", "number": "sing", "context": "Szukam ___.", "baseWord": "(zły humor)", "answer": "złego humoru", "options": ["złego humoru", "zły humor", "złym humorze", "złych humorów"] },
+        { "title": "Dopełniacz (kogo? czego?)", "number": "plur", "context": "W tej grupie nie ma ___.", "baseWord": "(dobrzy studenci)", "answer": "dobrych studentów", "options": ["dobrych studentów", "dobrzy studenci", "dobrym studentom", "dobrych studentach"] },
+        { "title": "Biernik (kogo? co?)", "number": "sing", "context": "Mam ___.", "baseWord": "(nowe mieszkanie)", "answer": "nowe mieszkanie", "options": ["nowe mieszkanie", "nowego mieszkania", "nowym mieszkaniu", "nowego mieszkaniu"] },
+        { "title": "Celownik (komu? czemu?)", "number": "sing", "context": "Pomagam ___.", "baseWord": "(dobra studentka)", "answer": "dobrej studentce", "options": ["dobrej studentce", "dobrą studentkę", "dobra studentka", "dobrej studentki"] }
+    ],
+    "tryb": [
+        { "title": "Tryb warunkowy", "number": "1 os. lp", "context": "Gdybym miał czas, ___ do kina.", "baseWord": "(pójść)", "answer": "poszedłbym", "options": ["poszedłbym", "pójśćbym", "poszłabym", "pójść"] },
+        { "title": "Tryb warunkowy", "number": "2 os. lp", "context": "Czy ___ mi pomóc?", "baseWord": "(móc)", "answer": "mógłbyś", "options": ["mógłbyś", "mogłabyś", "mócbyś", "mogliście"] },
+        { "title": "Spójnik + by", "number": "3 os. lp", "context": "Chciał, ___ przyszła wcześniej.", "baseWord": "(żeby)", "answer": "żeby", "options": ["żeby", "żebym", "żebyś", "gdyby"] },
+        { "title": "Gdy + by", "number": "1 os. lp", "context": "___ był bogaty, kupiłbym dom.", "baseWord": "(gdy)", "answer": "gdybym", "options": ["gdybym", "gdybyś", "gdyby", "gdybyśmy"] },
+        { "title": "Jeśli + by", "number": "2 os. lp", "context": "___ chciała, mogłaby to zrobić.", "baseWord": "(jeśli)", "answer": "jeślibyś", "options": ["jeślibyś", "jeślibym", "jeśliby", "jeślibyście"] },
+        { "title": "Tryb warunkowy", "number": "1 os. lm", "context": "Chętnie ___ tam z wami.", "baseWord": "(pojechać)", "answer": "pojechalibyśmy", "options": ["pojechalibyśmy", "pojechałybyśmy", "pojechaćbyśmy", "pojechaliśmy"] }
+    ],
+    "czasPrzeszly": [
+        { "title": "Czas przeszły", "number": "on", "context": "Wczoraj ___ tę książkę do końca.", "baseWord": "(czytać)", "answer": "czytał", "options": ["czytał", "czytała", "czytałem", "czytać"] },
+        { "title": "Czas przeszły", "number": "ona", "context": "Wczoraj ___ tę książkę do końca.", "baseWord": "(czytać)", "answer": "czytała", "options": ["czytała", "czytał", "czytałam", "czytałaś"] },
+        { "title": "Czas przeszły", "number": "ja (m)", "context": "Przez rok ___ na siłownię trzy razy w tygodniu.", "baseWord": "(chodzić)", "answer": "chodziłem", "options": ["chodziłem", "chodziłam", "chodził", "chodziłeś"] },
+        { "title": "Czas przeszły", "number": "ja (f)", "context": "Przez rok ___ na siłownię trzy razy w tygodniu.", "baseWord": "(chodzić)", "answer": "chodziłam", "options": ["chodziłam", "chodziłem", "chodziła", "chodziłaś"] },
+        { "title": "Czas przeszły", "number": "oni", "context": "Studenci ___ razem do biblioteki.", "baseWord": "(iść)", "answer": "szli", "options": ["szli", "szły", "szedł", "szła"] },
+        { "title": "Czas przeszły", "number": "one", "context": "Studentki ___ razem do biblioteki.", "baseWord": "(iść)", "answer": "szły", "options": ["szły", "szli", "szedł", "szła"] },
+        { "title": "Czas przeszły – e→a", "number": "on", "context": "On ___ to od razu.", "baseWord": "(rozumieć)", "answer": "rozumiał", "options": ["rozumiał", "rozumieł", "rozumiął", "rozumiała"] },
+        { "title": "Czas przeszły – e→a", "number": "ona", "context": "Ona ___ go przez okno.", "baseWord": "(widzieć)", "answer": "widziała", "options": ["widziała", "widział", "widziął", "widziela"] },
+        { "title": "Czas przeszły – e→a", "number": "ja (m)", "context": "Długo ___ to zrobić.", "baseWord": "(musieć)", "answer": "musiałem", "options": ["musiałem", "musiełem", "musiąłem", "musiałam"] },
+        { "title": "Czas przeszły – e→a", "number": "ty (f)", "context": "Zawsze ___ dobrze śpiewać.", "baseWord": "(umieć)", "answer": "umiałaś", "options": ["umiałaś", "umiałeś", "umielaś", "umiałam"] },
+        { "title": "Czas przeszły – e→a", "number": "ona", "context": "Cały dzień ___ przy biurku.", "baseWord": "(siedzieć)", "answer": "siedziała", "options": ["siedziała", "siedział", "siedzieła", "siedziałam"] },
+        { "title": "Czas przeszły – e→a", "number": "ty (m)", "context": "Czy ___ o tym wydarzeniu wcześniej?", "baseWord": "(słyszeć)", "answer": "słyszałeś", "options": ["słyszałeś", "słyszałaś", "słyszełeś", "słyszałem"] },
+        { "title": "Czas przeszły – ą/ę", "number": "on", "context": "On ___ klucz ze stołu i wyszedł.", "baseWord": "(wziąć)", "answer": "wziął", "options": ["wziął", "wzięł", "wzięła", "wziąć"] },
+        { "title": "Czas przeszły – ą/ę", "number": "ona", "context": "Ona ___ torbę i wyszła z pokoju.", "baseWord": "(wziąć)", "answer": "wzięła", "options": ["wzięła", "wziął", "wziąła", "wzięłam"] },
+        { "title": "Czas przeszły – ą/ę", "number": "ona", "context": "Ona ___ oczy i zasnęła.", "baseWord": "(zamknąć)", "answer": "zamknęła", "options": ["zamknęła", "zamknął", "zamknęły", "zamknęłam"] },
+        { "title": "Czas przeszły – ą/ę", "number": "ja (m)", "context": "Wczoraj ___ nowy projekt.", "baseWord": "(zacząć)", "answer": "zacząłem", "options": ["zacząłem", "zaczęłem", "zaczął", "zaczęłam"] },
+        { "title": "Czas przeszły – ą/ę", "number": "ja (f)", "context": "Wczoraj ___ nowy projekt.", "baseWord": "(zacząć)", "answer": "zaczęłam", "options": ["zaczęłam", "zacząłam", "zaczęłem", "zaczęła"] },
+        { "title": "Czas przeszły – ą/ę", "number": "on", "context": "Nagle on ___ sens tego zdania.", "baseWord": "(pojąć)", "answer": "pojął", "options": ["pojął", "pojęł", "pojęła", "pojąć"] }
+    ],
+    "czasPrzyszly": [
+        { "title": "Czas przyszły", "number": "dokonany · 1 os. lp", "context": "Jutro na pewno ___ ten raport.", "baseWord": "(napisać)", "answer": "napiszę", "options": ["napiszę", "będę pisać", "piszę", "napisałem"] },
+        { "title": "Czas przyszły", "number": "niedokonany · 1 os. lp", "context": "Jutro przez cały dzień ___ do egzaminu.", "baseWord": "(uczyć się)", "answer": "będę się uczyć", "options": ["będę się uczyć", "nauczę się", "uczę się", "uczyłem się"] },
+        { "title": "Czas przyszły", "number": "dokonany · 2 os. lp", "context": "Czy jutro ___ do mnie po pracy?", "baseWord": "(zadzwonić)", "answer": "zadzwonisz", "options": ["zadzwonisz", "będziesz dzwonić", "dzwonisz", "zadzwoniłeś"] },
+        { "title": "Czas przyszły", "number": "niedokonany · 2 os. lp", "context": "Co ___ w ten weekend?", "baseWord": "(robić)", "answer": "będziesz robić", "options": ["będziesz robić", "zrobisz", "robisz", "robiłeś"] },
+        { "title": "Czas przyszły", "number": "dokonany · 3 os. lp", "context": "On ___ ten projekt przed terminem.", "baseWord": "(skończyć)", "answer": "skończy", "options": ["skończy", "będzie kończyć", "kończy", "skończył"] },
+        { "title": "Czas przyszły", "number": "niedokonany · 3 os. lp", "context": "On ___ tu przez cały rok.", "baseWord": "(pracować)", "answer": "będzie pracować", "options": ["będzie pracować", "popracuje", "pracuje", "pracował"] },
+        { "title": "Czas przyszły", "number": "dokonany · 1 os. lm", "context": "Wieczorem ___ razem do kina.", "baseWord": "(pójść)", "answer": "pójdziemy", "options": ["pójdziemy", "będziemy iść", "idziemy", "szliśmy"] },
+        { "title": "Czas przyszły", "number": "niedokonany · 1 os. lm", "context": "Co roku ___ razem na wakacje.", "baseWord": "(jeździć)", "answer": "będziemy jeździć", "options": ["będziemy jeździć", "pojedziemy", "jeździmy", "jeździliśmy"] },
+        { "title": "Czas przyszły", "number": "dokonany · 2 os. lm", "context": "Kiedy ___ to zadanie?", "baseWord": "(zrobić)", "answer": "zrobicie", "options": ["zrobicie", "będziecie robić", "robicie", "zrobiliście"] },
+        { "title": "Czas przyszły", "number": "niedokonany · 3 os. lm", "context": "Przez wakacje oni ___ w górach.", "baseWord": "(mieszkać)", "answer": "będą mieszkać", "options": ["będą mieszkać", "zamieszkają", "mieszkają", "mieszkali"] },
+        { "title": "Czas przyszły", "number": "dokonany · 1 os. lp", "context": "Jutro rano ___ ten email.", "baseWord": "(przeczytać)", "answer": "przeczytam", "options": ["przeczytam", "będę czytać", "czytam", "przeczytałem"] },
+        { "title": "Czas przyszły", "number": "niedokonany · 3 os. lp", "context": "Ona codziennie rano ___ przez pół godziny.", "baseWord": "(biegać)", "answer": "będzie biegać", "options": ["będzie biegać", "pobiegnie", "biega", "biegała"] }
+    ]
+}
