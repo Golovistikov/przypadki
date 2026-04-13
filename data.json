@@ -1,0 +1,20 @@
+{
+    "przypadki": [
+        { "title": "Miejscownik (o kim? o czym?)", "number": "sing", "context": "Często myślę o ___.", "baseWord": "(dobry student)", "answer": "dobrym studencie", "options": ["dobrym studencie", "dobrego studenta", "dobremu studentowi", "dobry student"] },
+        { "title": "Miejscownik (o kim? o czym?)", "number": "plur", "context": "Szukamy ogłoszeń o ___ w Gdańsku.", "baseWord": "(nowe mieszkania)", "answer": "nowych mieszkaniach", "options": ["nowych mieszkaniach", "nowe mieszkania", "nowym mieszkaniu", "nowymi mieszkaniami"] },
+        { "title": "Narzędnik (z kim? z czym?)", "number": "sing", "context": "Idę na spacer z ___.", "baseWord": "(dobra studentka)", "answer": "dobrą studentką", "options": ["dobrą studentką", "dobrej studentki", "dobra studentka", "dobrą studentkę"] },
+        { "title": "Narzędnik (z kim? z czym?)", "number": "plur", "context": "Interesuję się ___.", "baseWord": "(nowe mieszkania)", "answer": "nowymi mieszkaniami", "options": ["nowymi mieszkaniami", "nowych mieszkań", "nowe mieszkania", "nowym mieszkaniu"] },
+        { "title": "Dopełniacz (kogo? czego?)", "number": "sing", "context": "Szukam ___.", "baseWord": "(zły humor)", "answer": "złego humoru", "options": ["złego humoru", "zły humor", "złym humorze", "złych humorów"] },
+        { "title": "Dopełniacz (kogo? czego?)", "number": "plur", "context": "W tej grupie nie ma ___.", "baseWord": "(dobrzy studenci)", "answer": "dobrych studentów", "options": ["dobrych studentów", "dobrzy studenci", "dobrym studentom", "dobrych studentach"] },
+        { "title": "Biernik (kogo? co?)", "number": "sing", "context": "Mam ___.", "baseWord": "(nowe mieszkanie)", "answer": "nowe mieszkanie", "options": ["nowe mieszkanie", "nowego mieszkania", "nowym mieszkaniu", "nowego mieszkaniu"] },
+        { "title": "Celownik (komu? czemu?)", "number": "sing", "context": "Pomagam ___.", "baseWord": "(dobra studentka)", "answer": "dobrej studentce", "options": ["dobrej studentce", "dobrą studentkę", "dobra studentka", "dobrej studentki"] }
+    ],
+    "tryb": [
+        { "title": "Tryb warunkowy", "number": "1 os. lp", "context": "Gdybym miał czas, ___ do kina.", "baseWord": "(pójść)", "answer": "poszedłbym", "options": ["poszedłbym", "pójśćbym", "poszłabym", "pójść"] },
+        { "title": "Tryb warunkowy", "number": "2 os. lp", "context": "Czy ___ mi pomóc?", "baseWord": "(móc)", "answer": "mógłbyś", "options": ["mógłbyś", "mogłabyś", "mócbyś", "mogliście"] },
+        { "title": "Spójnik + by", "number": "3 os. lp", "context": "Chciał, ___ przyszła wcześniej.", "baseWord": "(żeby)", "answer": "żeby", "options": ["żeby", "żebym", "żebyś", "gdyby"] },
+        { "title": "Gdy + by", "number": "1 os. lp", "context": "___ był bogaty, kupiłbym dom.", "baseWord": "(gdy)", "answer": "gdybym", "options": ["gdybym", "gdybyś", "gdyby", "gdybyśmy"] },
+        { "title": "Jeśli + by", "number": "2 os. lp", "context": "___ chciała, mogłaby to zrobić.", "baseWord": "(jeśli)", "answer": "jeślibyś", "options": ["jeślibyś", "jeślibym", "jeśliby", "jeślibyście"] },
+        { "title": "Tryb warunkowy", "number": "1 os. lm", "context": "Chętnie ___ tam z wami.", "baseWord": "(pojechać)", "answer": "pojechalibyśmy", "options": ["pojechalibyśmy", "pojechałybyśmy", "pojechaćbyśmy", "pojechaliśmy"] }
+    ]
+}
