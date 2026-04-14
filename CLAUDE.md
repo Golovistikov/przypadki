@@ -18,7 +18,7 @@ Push to `main` triggers `.github/workflows/deploy.yaml`, which uploads `*.html`,
 
 The entire application lives in `index.html` (inline CSS + JS). Key internals:
 
-- **`data.json`** — question data, fetched on load. Two sets: `przypadki` (8 questions on the 6 Polish noun cases) and `tryb` (6 questions on conditional forms). Each entry has `title`, `number`, `context` (sentence with `___` blank), `baseWord`, `answer`, and `options` (4 multiple-choice answers).
+- **`data/data.json`** — question data, fetched on load. Two sets: `przypadki` (8 questions on the 6 Polish noun cases) and `tryb` (6 questions on conditional forms). Each entry has `title`, `number`, `context` (sentence with `___` blank), `baseWord`, `answer`, and `options` (4 multiple-choice answers).
 - **Two tabs** — "Przypadki" and "bym / byś / by", switching sets the active question pool.
 - **Two modes** — "Wybór" (multiple choice, renders 4 buttons) and "Wpisanie" (free text input). Mode toggle rebuilds the answer UI without resetting stats.
 - **Stats** — `correctAnswers` / `wrongAnswers` counters update after each submission and render as percentage + raw counts.

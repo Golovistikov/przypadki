@@ -1,6 +1,6 @@
 # Trener Polskiego 🇵🇱
 
-<img src="icon.png" alt="App icon" width="180">
+<img src="assets/icon.png" alt="App icon" width="180">
 
 A free, open-source Progressive Web App for practising Polish grammar on the way to the **B1 exam**. No account, no install required — open it in a browser and start drilling.
 
@@ -72,7 +72,7 @@ feature/*     ← one branch per feature or question set, branched from develop
 
 ### Adding questions
 
-All questions live in [`data.json`](data.json). Each entry follows this shape:
+All questions live in [`data.json`](data/data.json). Each entry follows this shape:
 
 ```json
 {
