@@ -28,7 +28,7 @@ jobs:
 
       - name: Upload static files
         run: |
-          for pattern in "*.html" "*.json" "*.png"; do
+          for pattern in "*.html" "*.json" "assets/*.png" "data/*.json"; do
             az storage blob upload-batch \
               --account-name ${{ vars.STORAGE_ACCOUNT_NAME }} \
               --destination '$web' \
