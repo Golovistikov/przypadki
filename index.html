@@ -191,18 +191,29 @@
         .input-correct { border-color: var(--success) !important; background-color: #f0fff4 !important; }
         .input-wrong { border-color: var(--danger) !important; background-color: #fff5f5 !important; animation: shake 0.4s; }
 
-        /* Keyboard-open layout: collapse question area so input + buttons stay visible */
-        .container:has(#user-input:focus) .stats-panel { display: none; }
+        /* Keyboard-open layout: keep stats/mode/question/input/buttons all visible */
+        .container:has(#user-input:focus) .main-tabs    { display: none; }
         .container:has(#user-input:focus) .footer-counter { display: none; }
+        .container:has(#user-input:focus) .stats-panel  {
+            padding: 3px 12px;
+            margin-bottom: 4px;
+            flex-shrink: 0;
+        }
+        .container:has(#user-input:focus) .stat-label   { display: none; }
+        .container:has(#user-input:focus) .stat-value   { font-size: 0.85rem; }
+        .container:has(#user-input:focus) .mode-selector {
+            margin-bottom: 3px;
+            flex-shrink: 0;
+        }
         .container:has(#user-input:focus) .question-wrapper {
             flex-grow: 0;
             justify-content: flex-start;
-            padding: 4px 0;
+            padding: 2px 0;
         }
-        .container:has(#user-input:focus) .question-title { font-size: 0.85rem; }
-        .container:has(#user-input:focus) .question-context { font-size: 0.95rem; margin-bottom: 6px; }
+        .container:has(#user-input:focus) .question-title   { font-size: 0.85rem; }
+        .container:has(#user-input:focus) .question-context { font-size: 0.95rem; margin-bottom: 5px; }
         .container:has(#user-input:focus) .question-baseword { font-size: 0.85rem; padding: 4px 10px; }
-        .container:has(#user-input:focus) .badge { margin-bottom: 3px; }
+        .container:has(#user-input:focus) .badge            { margin-bottom: 2px; }
 </style>
 </head>
 <body>
