@@ -191,6 +191,8 @@
         .input-wrong { border-color: var(--danger) !important; background-color: #fff5f5 !important; animation: shake 0.4s; }
 
         /* Keyboard-open layout: collapse question area so input + buttons stay visible */
+        .container:has(#user-input:focus) .stats-panel { display: none; }
+        .container:has(#user-input:focus) .footer-counter { display: none; }
         .container:has(#user-input:focus) .question-wrapper {
             flex-grow: 0;
             justify-content: flex-start;
