@@ -191,29 +191,31 @@
         .input-correct { border-color: var(--success) !important; background-color: #f0fff4 !important; }
         .input-wrong { border-color: var(--danger) !important; background-color: #fff5f5 !important; animation: shake 0.4s; }
 
-        /* Keyboard-open layout */
-        .container:has(#user-input:focus) .footer-counter  { display: none; }
-        .container:has(#user-input:focus) .tab-btn         { padding: 5px; }
-        .container:has(#user-input:focus) .main-tabs       { margin-bottom: 4px; }
-        .container:has(#user-input:focus) .stats-panel     { padding: 3px 12px; margin-bottom: 4px; flex-shrink: 0; }
-        .container:has(#user-input:focus) .stat-label      { display: none; }
-        .container:has(#user-input:focus) .stat-value      { font-size: 0.8rem; }
-        .container:has(#user-input:focus) .mode-selector   { padding: 3px; margin-bottom: 3px; flex-shrink: 0; }
-        .container:has(#user-input:focus) .mode-btn        { padding: 4px; }
-        .container:has(#user-input:focus) .question-wrapper {
-            flex-grow: 0;
-            justify-content: flex-start;
-            padding: 2px 0;
+        /* Keyboard-open compact layout — touch devices only */
+        @media (pointer: coarse) {
+            .container:has(#user-input:focus) .footer-counter  { display: none; }
+            .container:has(#user-input:focus) .tab-btn         { padding: 5px; }
+            .container:has(#user-input:focus) .main-tabs       { margin-bottom: 4px; }
+            .container:has(#user-input:focus) .stats-panel     { padding: 3px 12px; margin-bottom: 4px; flex-shrink: 0; }
+            .container:has(#user-input:focus) .stat-label      { display: none; }
+            .container:has(#user-input:focus) .stat-value      { font-size: 0.8rem; }
+            .container:has(#user-input:focus) .mode-selector   { padding: 3px; margin-bottom: 3px; flex-shrink: 0; }
+            .container:has(#user-input:focus) .mode-btn        { padding: 4px; }
+            .container:has(#user-input:focus) .question-wrapper {
+                flex-grow: 0;
+                justify-content: flex-start;
+                padding: 2px 0;
+            }
+            .container:has(#user-input:focus) .question-title  { font-size: 0.8rem; margin-bottom: 0; }
+            .container:has(#user-input:focus) .question-context { font-size: 0.9rem; margin-bottom: 4px; }
+            .container:has(#user-input:focus) .question-baseword { font-size: 0.8rem; padding: 3px 10px; }
+            .container:has(#user-input:focus) .badge           { margin-bottom: 2px; font-size: 0.6rem; }
+            .container:has(#user-input:focus) #input-container { margin-top: 6px; }
+            .container:has(#user-input:focus) #user-input      { padding: 8px; }
+            .container:has(#user-input:focus) #check-btn       { padding: 8px; }
+            .container:has(#user-input:focus) .controls        { margin-top: 3px; margin-bottom: 3px; }
+            .container:has(#user-input:focus) #reset-btn       { padding: 8px; }
         }
-        .container:has(#user-input:focus) .question-title  { font-size: 0.8rem; margin-bottom: 0; }
-        .container:has(#user-input:focus) .question-context { font-size: 0.9rem; margin-bottom: 4px; }
-        .container:has(#user-input:focus) .question-baseword { font-size: 0.8rem; padding: 3px 10px; }
-        .container:has(#user-input:focus) .badge           { margin-bottom: 2px; font-size: 0.6rem; }
-        .container:has(#user-input:focus) #input-container { margin-top: 6px; }
-        .container:has(#user-input:focus) #user-input      { padding: 8px; }
-        .container:has(#user-input:focus) #check-btn       { padding: 8px; }
-        .container:has(#user-input:focus) .controls        { margin-top: 3px; margin-bottom: 3px; }
-        .container:has(#user-input:focus) #reset-btn       { padding: 8px; }
 </style>
 </head>
 <body>
@@ -292,6 +294,8 @@
         resetGame();
     }
 
+    const isMobile = () => window.matchMedia('(pointer: coarse)').matches;
+
     function setMode(mode) {
         currentMode = mode;
         document.getElementById('mode-choice').classList.toggle('active', mode === 'choice');
@@ -323,7 +327,7 @@
         document.getElementById('feedback-msg').className = 'feedback-msg';
 
         const input = document.getElementById('user-input');
-        input.value = ''; input.className = ''; input.disabled = false;
+        input.value = ''; input.className = ''; input.readOnly = false; input.disabled = false;
 
         if (currentMode === 'choice') {
             document.getElementById('options-container').style.display = 'block';
@@ -333,6 +337,7 @@
             document.getElementById('options-container').style.display = 'none';
             document.getElementById('input-container').style.display = 'block';
             document.getElementById('check-btn').style.display = 'block';
+            if (isMobile()) document.getElementById('user-input').focus();
         }
     }
 
@@ -354,7 +359,7 @@
     function checkWrittenAnswer() {
         const input = document.getElementById('user-input');
         const isCorrect = input.value.trim().toLowerCase() === currentQuestion.answer.toLowerCase();
-        input.disabled = true;
+        input.readOnly = true;
         document.getElementById('check-btn').style.display = 'none';
         finishQuestion(isCorrect, input);
     }
@@ -388,8 +393,22 @@
     // iOS Safari scrolls the viewport up when an input is focused, hiding the top UI.
     // After the browser finishes its auto-scroll, reset to the top of the page.
     document.getElementById('user-input').addEventListener('focus', () => {
-        setTimeout(() => window.scrollTo(0, 0), 50);
+        if (isMobile()) setTimeout(() => window.scrollTo(0, 0), 50);
     });
+
+    // On touch, tapping a button blurs the input first, causing a layout shift that
+    // moves the button before the tap completes. preventDefault() on touchstart stops
+    // the blur, keeping the layout stable. The click handler is then called directly
+    // (because preventDefault also suppresses the synthetic click event on touch).
+    document.getElementById('check-btn').addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        checkWrittenAnswer();
+    }, { passive: false });
+
+    document.getElementById('next-btn').addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        loadNextQuestion();
+    }, { passive: false });
 
     fetch('data/data.json')
         .then(r => r.json())
