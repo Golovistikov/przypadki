@@ -191,16 +191,16 @@
         .input-correct { border-color: var(--success) !important; background-color: #f0fff4 !important; }
         .input-wrong { border-color: var(--danger) !important; background-color: #fff5f5 !important; animation: shake 0.4s; }
 
-        /* Keyboard-open layout: keep stats/mode/question/input/buttons all visible */
-        .container:has(#user-input:focus) .main-tabs    { display: none; }
+        /* Keyboard-open layout: tabs on top, stats moved to bottom, everything fits */
         .container:has(#user-input:focus) .footer-counter { display: none; }
-        .container:has(#user-input:focus) .stats-panel  {
+        .container:has(#user-input:focus) .stats-panel {
+            order: 10;
             padding: 3px 12px;
-            margin-bottom: 4px;
+            margin-bottom: 0;
+            margin-top: 4px;
             flex-shrink: 0;
         }
-        .container:has(#user-input:focus) .stat-label   { display: none; }
-        .container:has(#user-input:focus) .stat-value   { font-size: 0.85rem; }
+        .container:has(#user-input:focus) .stat-value { font-size: 0.85rem; }
         .container:has(#user-input:focus) .mode-selector {
             margin-bottom: 3px;
             flex-shrink: 0;
