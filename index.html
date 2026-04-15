@@ -385,6 +385,12 @@
         loadNextQuestion();
     }
 
+    // iOS Safari scrolls the viewport up when an input is focused, hiding the top UI.
+    // After the browser finishes its auto-scroll, reset to the top of the page.
+    document.getElementById('user-input').addEventListener('focus', () => {
+        setTimeout(() => window.scrollTo(0, 0), 50);
+    });
+
     fetch('data/data.json')
         .then(r => r.json())
         .then(data => { database = data; initPool(); loadNextQuestion(); });
