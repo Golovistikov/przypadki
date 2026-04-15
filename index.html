@@ -189,7 +189,18 @@
         }
         .input-correct { border-color: var(--success) !important; background-color: #f0fff4 !important; }
         .input-wrong { border-color: var(--danger) !important; background-color: #fff5f5 !important; animation: shake 0.4s; }
-    </style>
+
+        /* Keyboard-open layout: collapse question area so input + buttons stay visible */
+        .container:has(#user-input:focus) .question-wrapper {
+            flex-grow: 0;
+            justify-content: flex-start;
+            padding: 4px 0;
+        }
+        .container:has(#user-input:focus) .question-title { font-size: 0.85rem; }
+        .container:has(#user-input:focus) .question-context { font-size: 0.95rem; margin-bottom: 6px; }
+        .container:has(#user-input:focus) .question-baseword { font-size: 0.85rem; padding: 4px 10px; }
+        .container:has(#user-input:focus) .badge { margin-bottom: 3px; }
+</style>
 </head>
 <body>
 
