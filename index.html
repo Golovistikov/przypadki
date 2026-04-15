@@ -396,6 +396,15 @@
         if (isMobile()) setTimeout(() => window.scrollTo(0, 0), 50);
     });
 
+    document.getElementById('user-input').addEventListener('keydown', (e) => {
+        if (e.key !== 'Enter') return;
+        if (document.getElementById('check-btn').style.display !== 'none') {
+            checkWrittenAnswer();
+        } else if (document.getElementById('next-btn').style.display !== 'none') {
+            loadNextQuestion();
+        }
+    });
+
     // On touch, tapping a button blurs the input first, causing a layout shift that
     // moves the button before the tap completes. preventDefault() on touchstart stops
     // the blur, keeping the layout stable. The click handler is then called directly
