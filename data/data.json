@@ -1,54 +1,1908 @@
 {
     "przypadki": [
-        { "title": "Miejscownik (o kim? o czym?)", "number": "sing", "context": "Często myślę o ___.", "baseWord": "(dobry student)", "answer": "dobrym studencie", "options": ["dobrym studencie", "dobrego studenta", "dobremu studentowi", "dobry student"] },
-        { "title": "Miejscownik (o kim? o czym?)", "number": "plur", "context": "Szukamy ogłoszeń o ___ w Gdańsku.", "baseWord": "(nowe mieszkania)", "answer": "nowych mieszkaniach", "options": ["nowych mieszkaniach", "nowe mieszkania", "nowym mieszkaniu", "nowymi mieszkaniami"] },
-        { "title": "Narzędnik (z kim? z czym?)", "number": "sing", "context": "Idę na spacer z ___.", "baseWord": "(dobra studentka)", "answer": "dobrą studentką", "options": ["dobrą studentką", "dobrej studentki", "dobra studentka", "dobrą studentkę"] },
-        { "title": "Narzędnik (z kim? z czym?)", "number": "plur", "context": "Interesuję się ___.", "baseWord": "(nowe mieszkania)", "answer": "nowymi mieszkaniami", "options": ["nowymi mieszkaniami", "nowych mieszkań", "nowe mieszkania", "nowym mieszkaniu"] },
-        { "title": "Dopełniacz (kogo? czego?)", "number": "sing", "context": "Szukam ___.", "baseWord": "(zły humor)", "answer": "złego humoru", "options": ["złego humoru", "zły humor", "złym humorze", "złych humorów"] },
-        { "title": "Dopełniacz (kogo? czego?)", "number": "plur", "context": "W tej grupie nie ma ___.", "baseWord": "(dobrzy studenci)", "answer": "dobrych studentów", "options": ["dobrych studentów", "dobrzy studenci", "dobrym studentom", "dobrych studentach"] },
-        { "title": "Biernik (kogo? co?)", "number": "sing", "context": "Mam ___.", "baseWord": "(nowe mieszkanie)", "answer": "nowe mieszkanie", "options": ["nowe mieszkanie", "nowego mieszkania", "nowym mieszkaniu", "nowego mieszkaniu"] },
-        { "title": "Celownik (komu? czemu?)", "number": "sing", "context": "Pomagam ___.", "baseWord": "(dobra studentka)", "answer": "dobrej studentce", "options": ["dobrej studentce", "dobrą studentkę", "dobra studentka", "dobrej studentki"] }
+        {
+            "title": "Miejscownik (o kim? o czym?)",
+            "number": "l.poj.",
+            "context": "Często myślę o ___.",
+            "baseWord": "(dobry student)",
+            "answer": "dobrym studencie",
+            "options": [
+                "dobrym studencie",
+                "dobrego studenta",
+                "dobremu studentowi",
+                "dobry student"
+            ]
+        },
+        {
+            "title": "Miejscownik (o kim? o czym?)",
+            "number": "l.mn.",
+            "context": "Szukamy ogłoszeń o ___ w Gdańsku.",
+            "baseWord": "(nowe mieszkania)",
+            "answer": "nowych mieszkaniach",
+            "options": [
+                "nowych mieszkaniach",
+                "nowe mieszkania",
+                "nowym mieszkaniu",
+                "nowymi mieszkaniami"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Idę na spacer z ___.",
+            "baseWord": "(dobra studentka)",
+            "answer": "dobrą studentką",
+            "options": [
+                "dobrą studentką",
+                "dobrej studentki",
+                "dobra studentka",
+                "dobrą studentkę"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.mn.",
+            "context": "Interesuję się ___.",
+            "baseWord": "(nowe mieszkania)",
+            "answer": "nowymi mieszkaniami",
+            "options": [
+                "nowymi mieszkaniami",
+                "nowych mieszkań",
+                "nowe mieszkania",
+                "nowym mieszkaniu"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.poj.",
+            "context": "Szukam ___.",
+            "baseWord": "(zły humor)",
+            "answer": "złego humoru",
+            "options": [
+                "złego humoru",
+                "zły humor",
+                "złym humorze",
+                "złych humorów"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.mn.",
+            "context": "W tej grupie nie ma ___.",
+            "baseWord": "(dobrzy studenci)",
+            "answer": "dobrych studentów",
+            "options": [
+                "dobrych studentów",
+                "dobrzy studenci",
+                "dobrym studentom",
+                "dobrych studentach"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Mam ___.",
+            "baseWord": "(nowe mieszkanie)",
+            "answer": "nowe mieszkanie",
+            "options": [
+                "nowe mieszkanie",
+                "nowego mieszkania",
+                "nowym mieszkaniu",
+                "nowego mieszkaniu"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.poj.",
+            "context": "Pomagam ___.",
+            "baseWord": "(dobra studentka)",
+            "answer": "dobrej studentce",
+            "options": [
+                "dobrej studentce",
+                "dobrą studentkę",
+                "dobra studentka",
+                "dobrej studentki"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Ona zajmuje się ___.",
+            "baseWord": "(chora córka)",
+            "answer": "chorą córką",
+            "options": [
+                "chorą córką",
+                "chorej córki",
+                "chora córka",
+                "chorą córkę"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.mn.",
+            "context": "Wszyscy zachwycaliśmy się ___.",
+            "baseWord": "(wspaniałe widoki)",
+            "answer": "wspaniałymi widokami",
+            "options": [
+                "wspaniałymi widokami",
+                "wspaniałych widoków",
+                "wspaniałe widoki",
+                "wspaniałym widokiem"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Martwię się ___.",
+            "baseWord": "(twoja choroba)",
+            "answer": "twoją chorobą",
+            "options": [
+                "twoją chorobą",
+                "twojej choroby",
+                "twoja choroba",
+                "twoją chorobę"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Rodzice cieszą się ___.",
+            "baseWord": "(nowe mieszkanie)",
+            "answer": "nowym mieszkaniem",
+            "options": [
+                "nowym mieszkaniem",
+                "nowego mieszkania",
+                "nowe mieszkanie",
+                "nowym mieszkaniu"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Jasio umie już jeść ___.",
+            "baseWord": "(łyżka)",
+            "answer": "łyżką",
+            "options": [
+                "łyżką",
+                "łyżkę",
+                "łyżka",
+                "łyżki"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Dziecko rysuje ___.",
+            "baseWord": "(nowy ołówek)",
+            "answer": "nowym ołówkiem",
+            "options": [
+                "nowym ołówkiem",
+                "nowy ołówek",
+                "nowego ołówka",
+                "nowym ołówku"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Wolę pisać ___ niż długopisem.",
+            "baseWord": "(pióro)",
+            "answer": "piórem",
+            "options": [
+                "piórem",
+                "pióro",
+                "pióra",
+                "piórze"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Kasia czesze się ___.",
+            "baseWord": "(gęsta szczotka)",
+            "answer": "gęstą szczotką",
+            "options": [
+                "gęstą szczotką",
+                "gęstą szczotkę",
+                "gęsta szczotka",
+                "gęstej szczotki"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Wujek zawsze myje się ___.",
+            "baseWord": "(zimna woda)",
+            "answer": "zimną wodą",
+            "options": [
+                "zimną wodą",
+                "zimną wodę",
+                "zimna woda",
+                "zimnej wody"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Mama smaruje chleb ___.",
+            "baseWord": "(masło)",
+            "answer": "masłem",
+            "options": [
+                "masłem",
+                "masło",
+                "masła",
+                "maśle"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Hania bawi się z ___.",
+            "baseWord": "(mały Pawełek)",
+            "answer": "małym Pawełkiem",
+            "options": [
+                "małym Pawełkiem",
+                "małego Pawełka",
+                "mały Pawełek",
+                "małym Pawełku"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Uważaj, żebyś nie zaraził się ___.",
+            "baseWord": "(żółtaczka)",
+            "answer": "żółtaczką",
+            "options": [
+                "żółtaczką",
+                "żółtaczkę",
+                "żółtaczka",
+                "żółtaczki"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Strasznie zmęczyliśmy się ___.",
+            "baseWord": "(ta wizyta)",
+            "answer": "tą wizytą",
+            "options": [
+                "tą wizytą",
+                "tej wizyty",
+                "tę wizytę",
+                "ta wizyta"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.mn.",
+            "context": "Po wypadku nie mógł ruszać ___.",
+            "baseWord": "(nogi)",
+            "answer": "nogami",
+            "options": [
+                "nogami",
+                "nóg",
+                "nogi",
+                "nogach"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Nasza Łucja rządzi ___.",
+            "baseWord": "(cała grupa)",
+            "answer": "całą grupą",
+            "options": [
+                "całą grupą",
+                "całej grupy",
+                "całą grupę",
+                "cała grupa"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Policjant kierował ___.",
+            "baseWord": "(ruch)",
+            "answer": "ruchem",
+            "options": [
+                "ruchem",
+                "ruch",
+                "ruchu",
+                "ruchu"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.mn.",
+            "context": "Powietrze pachniało ___.",
+            "baseWord": "(konwalie)",
+            "answer": "konwaliami",
+            "options": [
+                "konwaliami",
+                "konwalii",
+                "konwalie",
+                "konwaliach"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Danka jedzie ___.",
+            "baseWord": "(taksówka)",
+            "answer": "taksówką",
+            "options": [
+                "taksówką",
+                "taksówkę",
+                "taksówki",
+                "taksówka"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Lubię jeździć ___.",
+            "baseWord": "(tramwaj)",
+            "answer": "tramwajem",
+            "options": [
+                "tramwajem",
+                "tramwaj",
+                "tramwaju",
+                "tramwajowi"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Prezydent leciał ___.",
+            "baseWord": "(prywatny samolot)",
+            "answer": "prywatnym samolotem",
+            "options": [
+                "prywatnym samolotem",
+                "prywatnego samolotu",
+                "prywatny samolot",
+                "prywatnym samolocie"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.poj.",
+            "context": "Pływali po jeziorze ___.",
+            "baseWord": "(niewielki kajak)",
+            "answer": "niewielkim kajakiem",
+            "options": [
+                "niewielkim kajakiem",
+                "niewielki kajak",
+                "niewielkiego kajaka",
+                "niewielkim kajaku"
+            ]
+        },
+        {
+            "title": "Narzędnik (z kim? z czym?)",
+            "number": "l.mn.",
+            "context": "Janek ciągle chwali się ___.",
+            "baseWord": "(swoje osiągnięcia)",
+            "answer": "swoimi osiągnięciami",
+            "options": [
+                "swoimi osiągnięciami",
+                "swoich osiągnięć",
+                "swoje osiągnięcia",
+                "swoim osiągnięciu"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Znasz ___?",
+            "baseWord": "(ten chłopiec)",
+            "answer": "tego chłopca",
+            "options": [
+                "tego chłopca",
+                "ten chłopiec",
+                "temu chłopcu",
+                "tym chłopcem"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Zwiedziliśmy ___.",
+            "baseWord": "(interesująca wystawa)",
+            "answer": "interesującą wystawę",
+            "options": [
+                "interesującą wystawę",
+                "interesującej wystawy",
+                "interesującą wystawą",
+                "interesująca wystawa"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.mn.",
+            "context": "Odwiedziłem wczoraj ___.",
+            "baseWord": "(twoi rodzice)",
+            "answer": "twoich rodziców",
+            "options": [
+                "twoich rodziców",
+                "twoimi rodzicami",
+                "twoi rodzice",
+                "twoim rodzicom"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Ona naprawdę kocha ___.",
+            "baseWord": "(taniec)",
+            "answer": "taniec",
+            "options": [
+                "taniec",
+                "tańca",
+                "tańcem",
+                "tańcowi"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.mn.",
+            "context": "Kupił mi ___.",
+            "baseWord": "(piękne kwiaty)",
+            "answer": "piękne kwiaty",
+            "options": [
+                "piękne kwiaty",
+                "pięknych kwiatów",
+                "pięknymi kwiatami",
+                "pięknym kwiatom"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.mn.",
+            "context": "Mój ojciec zbiera ___.",
+            "baseWord": "(stare monety)",
+            "answer": "stare monety",
+            "options": [
+                "stare monety",
+                "starych monet",
+                "starymi monetami",
+                "starych monetach"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Piję tylko ___.",
+            "baseWord": "(ciemne piwo)",
+            "answer": "ciemne piwo",
+            "options": [
+                "ciemne piwo",
+                "ciemnego piwa",
+                "ciemnym piwem",
+                "ciemnemu piwu"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.mn.",
+            "context": "Pan Jan pisze zawsze ___.",
+            "baseWord": "(długie listy)",
+            "answer": "długie listy",
+            "options": [
+                "długie listy",
+                "długich listów",
+                "długimi listami",
+                "długim listom"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.mn.",
+            "context": "Zjedliśmy ___.",
+            "baseWord": "(wszystkie cukierki)",
+            "answer": "wszystkie cukierki",
+            "options": [
+                "wszystkie cukierki",
+                "wszystkich cukierków",
+                "wszystkimi cukierkami",
+                "wszystkim cukierkom"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.mn.",
+            "context": "Bardzo lubimy ___.",
+            "baseWord": "(owoce morza)",
+            "answer": "owoce morza",
+            "options": [
+                "owoce morza",
+                "owoców morza",
+                "owocami morza",
+                "owocom morza"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Chciałbym dostać ___.",
+            "baseWord": "(nowy rower)",
+            "answer": "nowy rower",
+            "options": [
+                "nowy rower",
+                "nowego roweru",
+                "nowym rowerem",
+                "nowemu rowerowi"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Proszę narysować ___.",
+            "baseWord": "(swój pokój)",
+            "answer": "swój pokój",
+            "options": [
+                "swój pokój",
+                "swojego pokoju",
+                "swoim pokojem",
+                "swojemu pokojowi"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Sprzedam ___.",
+            "baseWord": "(nowa lodówka)",
+            "answer": "nową lodówkę",
+            "options": [
+                "nową lodówkę",
+                "nowej lodówki",
+                "nową lodówką",
+                "nowa lodówka"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.mn.",
+            "context": "Babcia musi brać ___.",
+            "baseWord": "(antybiotyki)",
+            "answer": "antybiotyki",
+            "options": [
+                "antybiotyki",
+                "antybiotyków",
+                "antybiotykami",
+                "antybiotykom"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Jadzia buduje wieżę z ___.",
+            "baseWord": "(klocki)",
+            "answer": "klocków",
+            "options": [
+                "klocków",
+                "klocki",
+                "klockami",
+                "klockach"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Widzę tam ___.",
+            "baseWord": "(włoska restauracja)",
+            "answer": "włoską restaurację",
+            "options": [
+                "włoską restaurację",
+                "włoskiej restauracji",
+                "włoską restauracją",
+                "włoska restauracja"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Czytam ___.",
+            "baseWord": "(ciekawa powieść)",
+            "answer": "ciekawą powieść",
+            "options": [
+                "ciekawą powieść",
+                "ciekawej powieści",
+                "ciekawą powieścią",
+                "ciekawa powieść"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Czy możesz mi otworzyć ___?",
+            "baseWord": "(puszka kukurydzy)",
+            "answer": "puszkę kukurydzy",
+            "options": [
+                "puszkę kukurydzy",
+                "puszki kukurydzy",
+                "puszką kukurydzy",
+                "puszka kukurydzy"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.mn.",
+            "context": "Zamknij ___!",
+            "baseWord": "(nasze walizki)",
+            "answer": "nasze walizki",
+            "options": [
+                "nasze walizki",
+                "naszych walizek",
+                "naszymi walizkami",
+                "naszym walizkom"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Proszę o ___!",
+            "baseWord": "(cisza)",
+            "answer": "ciszę",
+            "options": [
+                "ciszę",
+                "ciszy",
+                "ciszą",
+                "cisza"
+            ]
+        },
+        {
+            "title": "Biernik (kogo? co?)",
+            "number": "l.poj.",
+            "context": "Pani Julia robi ___.",
+            "baseWord": "(pyszna zupa)",
+            "answer": "pyszną zupę",
+            "options": [
+                "pyszną zupę",
+                "pysznej zupy",
+                "pyszną zupą",
+                "pyszna zupa"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.mn.",
+            "context": "Szukam dobrej pracy w ___.",
+            "baseWord": "(Gdańsk)",
+            "answer": "Gdańsku",
+            "options": [
+                "Gdańsku",
+                "Gdańska",
+                "Gdańskiem",
+                "Gdańsk"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.mn.",
+            "context": "Życzymy wam ___.",
+            "baseWord": "(wesołe święta)",
+            "answer": "wesołych świąt",
+            "options": [
+                "wesołych świąt",
+                "wesołymi świętami",
+                "wesołym świętom",
+                "wesołe święta"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.poj.",
+            "context": "Szukam ___.",
+            "baseWord": "(mój klucz)",
+            "answer": "mojego klucza",
+            "options": [
+                "mojego klucza",
+                "mój klucz",
+                "moim kluczem",
+                "mojemu kluczowi"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.poj.",
+            "context": "Adaś boi się ___.",
+            "baseWord": "(burza)",
+            "answer": "burzy",
+            "options": [
+                "burzy",
+                "burzę",
+                "burzą",
+                "burza"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.poj.",
+            "context": "Potrzebujemy ___.",
+            "baseWord": "(zielona farba)",
+            "answer": "zielonej farby",
+            "options": [
+                "zielonej farby",
+                "zieloną farbę",
+                "zieloną farbą",
+                "zielona farba"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.poj.",
+            "context": "Musi pani unikać ___.",
+            "baseWord": "(słońce)",
+            "answer": "słońca",
+            "options": [
+                "słońca",
+                "słońce",
+                "słońcem",
+                "słońcu"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.poj.",
+            "context": "Rodzice pragną ___ dla swoich dzieci.",
+            "baseWord": "(szczęście)",
+            "answer": "szczęścia",
+            "options": [
+                "szczęścia",
+                "szczęście",
+                "szczęściem",
+                "szczęściu"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.mn.",
+            "context": "Zazdroszczę wam ___.",
+            "baseWord": "(te wspaniałe podróże)",
+            "answer": "tych wspaniałych podróży",
+            "options": [
+                "tych wspaniałych podróży",
+                "te wspaniałe podróże",
+                "tymi wspaniałymi podróżami",
+                "tym wspaniałym podróżom"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.mn.",
+            "context": "Spodziewamy się ___.",
+            "baseWord": "(mili goście)",
+            "answer": "miłych gości",
+            "options": [
+                "miłych gości",
+                "miłymi gośćmi",
+                "mili goście",
+                "miłym gościom"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.poj.",
+            "context": "Słucham ___.",
+            "baseWord": "(koncert)",
+            "answer": "koncertu",
+            "options": [
+                "koncertu",
+                "koncert",
+                "koncertem",
+                "koncertowi"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.poj.",
+            "context": "Wieczorami uczy się ___.",
+            "baseWord": "(język portugalski)",
+            "answer": "języka portugalskiego",
+            "options": [
+                "języka portugalskiego",
+                "język portugalski",
+                "językiem portugalskim",
+                "językowi portugalskiemu"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.mn.",
+            "context": "Często zapominam ___.",
+            "baseWord": "(okulary)",
+            "answer": "okularów",
+            "options": [
+                "okularów",
+                "okulary",
+                "okularami",
+                "okularom"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.poj.",
+            "context": "Strajkujący żądają ___.",
+            "baseWord": "(podwyżka)",
+            "answer": "podwyżki",
+            "options": [
+                "podwyżki",
+                "podwyżkę",
+                "podwyżką",
+                "podwyżka"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.mn.",
+            "context": "Żałuję ___.",
+            "baseWord": "(tamte chwile)",
+            "answer": "tamtych chwil",
+            "options": [
+                "tamtych chwil",
+                "tamte chwile",
+                "tamtymi chwilami",
+                "tamtym chwilom"
+            ]
+        },
+        {
+            "title": "Dopełniacz (kogo? czego?)",
+            "number": "l.poj.",
+            "context": "Pies pilnuje ___.",
+            "baseWord": "(dom)",
+            "answer": "domu",
+            "options": [
+                "domu",
+                "dom",
+                "domem",
+                "domowi"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.poj.",
+            "context": "Dałem gitarę ___.",
+            "baseWord": "(mój przyjaciel)",
+            "answer": "mojemu przyjacielowi",
+            "options": [
+                "mojemu przyjacielowi",
+                "mojego przyjaciela",
+                "moim przyjacielem",
+                "mój przyjaciel"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.poj.",
+            "context": "Podaruję ___ obraz.",
+            "baseWord": "(ty)",
+            "answer": "ci",
+            "options": [
+                "ci",
+                "ciebie",
+                "tobą",
+                "cię"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.mn.",
+            "context": "Złodzieje ukradli ___ biżuterię.",
+            "baseWord": "(oni)",
+            "answer": "im",
+            "options": [
+                "im",
+                "nich",
+                "nimi",
+                "ich"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.mn.",
+            "context": "Pomożemy ___ znaleźć pracę.",
+            "baseWord": "(wy)",
+            "answer": "wam",
+            "options": [
+                "wam",
+                "was",
+                "wami",
+                "wy"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.poj.",
+            "context": "Alkohol szkodzi ___.",
+            "baseWord": "(każdy)",
+            "answer": "każdemu",
+            "options": [
+                "każdemu",
+                "każdego",
+                "każdym",
+                "każdy"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.poj.",
+            "context": "Nie ufajcie ___.",
+            "baseWord": "(nikt)",
+            "answer": "nikomu",
+            "options": [
+                "nikomu",
+                "nikogo",
+                "nikim",
+                "nikt"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.poj.",
+            "context": "Wierzysz ___?",
+            "baseWord": "(on)",
+            "answer": "mu",
+            "options": [
+                "mu",
+                "jego",
+                "nim",
+                "niego"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.mn.",
+            "context": "Nie mówcie ___ o tym zdarzeniu.",
+            "baseWord": "(rodzice)",
+            "answer": "rodzicom",
+            "options": [
+                "rodzicom",
+                "rodziców",
+                "rodzicami",
+                "rodzice"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.mn.",
+            "context": "Przypomnij ___ o naszym spotkaniu.",
+            "baseWord": "(koledzy)",
+            "answer": "kolegom",
+            "options": [
+                "kolegom",
+                "kolegów",
+                "kolegami",
+                "koledzy"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.poj.",
+            "context": "Opowiedz ___ bajkę.",
+            "baseWord": "(ja)",
+            "answer": "mi",
+            "options": [
+                "mi",
+                "mnie",
+                "mną",
+                "ja"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.poj.",
+            "context": "Nie dokuczaj ___.",
+            "baseWord": "(siostra)",
+            "answer": "siostrze",
+            "options": [
+                "siostrze",
+                "siostry",
+                "siostrę",
+                "siostrą"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.poj.",
+            "context": "Podobało ___ się to mieszkanie?",
+            "baseWord": "(ona)",
+            "answer": "jej",
+            "options": [
+                "jej",
+                "ją",
+                "nią",
+                "nie"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.mn.",
+            "context": "Bardzo serdecznie ___ dziękujemy.",
+            "baseWord": "(wy)",
+            "answer": "wam",
+            "options": [
+                "wam",
+                "was",
+                "wami",
+                "wy"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.poj.",
+            "context": "Dziwię ___ się, że chcesz tu pracować.",
+            "baseWord": "(ty)",
+            "answer": "ci",
+            "options": [
+                "ci",
+                "ciebie",
+                "tobą",
+                "cię"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.poj.",
+            "context": "Zazdrościła ___ wszystkiego.",
+            "baseWord": "(my)",
+            "answer": "nam",
+            "options": [
+                "nam",
+                "nas",
+                "nami",
+                "my"
+            ]
+        },
+        {
+            "title": "Celownik (komu? czemu?)",
+            "number": "l.mn.",
+            "context": "Życzymy ___ wszystkiego najlepszego.",
+            "baseWord": "(wy)",
+            "answer": "wam",
+            "options": [
+                "wam",
+                "was",
+                "wami",
+                "wy"
+            ]
+        }
     ],
-"tryb": [
-        { "title": "Tryb warunkowy", "number": "ja (m)", "context": "Gdybym miał czas, ___ do kina.", "baseWord": "(pójść)", "answer": "poszedłbym", "options": ["poszedłbym", "pójśćbym", "poszłabym", "pójść"] },
-        { "title": "Tryb warunkowy", "number": "ty (m)", "context": "Czy ___ mi pomóc?", "baseWord": "(móc)", "answer": "mógłbyś", "options": ["mógłbyś", "mogłabyś", "mócbyś", "mogliście"] },
-        { "title": "Spójnik + by", "number": "ona", "context": "Chciał, ___ przyszła wcześniej.", "baseWord": "(żeby)", "answer": "żeby", "options": ["żeby", "żebym", "żebyś", "gdyby"] },
-        { "title": "Gdy + by", "number": "ja (m)", "context": "___ był bogaty, kupiłbym dom.", "baseWord": "(gdy)", "answer": "gdybym", "options": ["gdybym", "gdybyś", "gdyby", "gdybyśmy"] },
-        { "title": "Jeśli + by", "number": "ty (f)", "context": "___ chciała, mogłaby to zrobić.", "baseWord": "(jeśli)", "answer": "jeślibyś", "options": ["jeślibyś", "jeślibym", "jeśliby", "jeślibyście"] },
-        { "title": "Tryb warunkowy", "number": "my (m)", "context": "Chętnie ___ tam z wami.", "baseWord": "(pojechać)", "answer": "pojechalibyśmy", "options": ["pojechalibyśmy", "pojechałybyśmy", "pojechaćbyśmy", "pojechaliśmy"] }
+    "tryb": [
+        {
+            "title": "Tryb warunkowy",
+            "number": "ja (m)",
+            "context": "Gdybym miał czas, ___ do kina.",
+            "baseWord": "(pójść)",
+            "answer": "poszedłbym",
+            "options": [
+                "poszedłbym",
+                "pójśćbym",
+                "poszłabym",
+                "pójść"
+            ]
+        },
+        {
+            "title": "Tryb warunkowy",
+            "number": "ty (m)",
+            "context": "Czy ___ mi pomóc?",
+            "baseWord": "(móc)",
+            "answer": "mógłbyś",
+            "options": [
+                "mógłbyś",
+                "mogłabyś",
+                "mócbyś",
+                "mogliście"
+            ]
+        },
+        {
+            "title": "Spójnik + by",
+            "number": "ona",
+            "context": "Chciał, ___ przyszła wcześniej.",
+            "baseWord": "(żeby)",
+            "answer": "żeby",
+            "options": [
+                "żeby",
+                "żebym",
+                "żebyś",
+                "gdyby"
+            ]
+        },
+        {
+            "title": "Gdy + by",
+            "number": "ja (m)",
+            "context": "___ był bogaty, kupiłbym dom.",
+            "baseWord": "(gdy)",
+            "answer": "gdybym",
+            "options": [
+                "gdybym",
+                "gdybyś",
+                "gdyby",
+                "gdybyśmy"
+            ]
+        },
+        {
+            "title": "Jeśli + by",
+            "number": "ty (f)",
+            "context": "___ chciała, mogłaby to zrobić.",
+            "baseWord": "(jeśli)",
+            "answer": "jeślibyś",
+            "options": [
+                "jeślibyś",
+                "jeślibym",
+                "jeśliby",
+                "jeślibyście"
+            ]
+        },
+        {
+            "title": "Tryb warunkowy",
+            "number": "my (m)",
+            "context": "Chętnie ___ tam z wami.",
+            "baseWord": "(pojechać)",
+            "answer": "pojechalibyśmy",
+            "options": [
+                "pojechalibyśmy",
+                "pojechałybyśmy",
+                "pojechaćbyśmy",
+                "pojechaliśmy"
+            ]
+        },
+        {
+            "title": "Tryb warunkowy",
+            "number": "ty (m)",
+            "context": "Czy ___ się moim psem w weekend?",
+            "baseWord": "(zająć się)",
+            "answer": "zająłbyś",
+            "options": [
+                "zająłbyś",
+                "zajęłabyś",
+                "zająćbyś",
+                "zająłeś"
+            ]
+        },
+        {
+            "title": "Tryb warunkowy",
+            "number": "ja (f)",
+            "context": "Na twoim miejscu ___ się burzy.",
+            "baseWord": "(bać się)",
+            "answer": "bałabym",
+            "options": [
+                "bałabym",
+                "bałbym",
+                "baćbym",
+                "bałam"
+            ]
+        },
+        {
+            "title": "Spójnik + by",
+            "number": "my",
+            "context": "Rodzice pragną, ___ wrócili przed nocą.",
+            "baseWord": "(żeby)",
+            "answer": "żebyśmy",
+            "options": [
+                "żebyśmy",
+                "żeby",
+                "żebyście",
+                "żebym"
+            ]
+        },
+        {
+            "title": "Tryb warunkowy",
+            "number": "wy (m)",
+            "context": "Czy ___ mi w remoncie?",
+            "baseWord": "(pomóc)",
+            "answer": "pomoglibyście",
+            "options": [
+                "pomoglibyście",
+                "pomogłybyście",
+                "pomócbyście",
+                "pomogliście"
+            ]
+        },
+        {
+            "title": "Tryb warunkowy",
+            "number": "my (m)",
+            "context": "Chętnie ___ tam częściej.",
+            "baseWord": "(jeździć)",
+            "answer": "jeździlibyśmy",
+            "options": [
+                "jeździlibyśmy",
+                "jeździłybyśmy",
+                "jeździliśmy",
+                "jeździćbyśmy"
+            ]
+        },
+        {
+            "title": "Gdy + by",
+            "number": "on",
+            "context": "___ miał czas, zwiedziłby wystawę.",
+            "baseWord": "(gdy)",
+            "answer": "gdyby",
+            "options": [
+                "gdyby",
+                "gdybym",
+                "gdybyś",
+                "gdy"
+            ]
+        },
+        {
+            "title": "Tryb warunkowy",
+            "number": "ja (m)",
+            "context": "Nigdy ___ tej decyzji.",
+            "baseWord": "(nie żałować)",
+            "answer": "nie żałowałbym",
+            "options": [
+                "nie żałowałbym",
+                "nie żałowałabym",
+                "nie żałował",
+                "nie żałuję"
+            ]
+        },
+        {
+            "title": "Tryb warunkowy",
+            "number": "ona",
+            "context": "Na pewno ___ z takich pięknych kwiatów.",
+            "baseWord": "(ucieszyć się)",
+            "answer": "ucieszyłaby się",
+            "options": [
+                "ucieszyłaby się",
+                "ucieszyłby się",
+                "ucieszy się",
+                "ucieszyłaby"
+            ]
+        }
     ],
     "czasPrzeszly": [
-        { "title": "Czas przeszły", "number": "on", "context": "Wczoraj ___ tę książkę do końca.", "baseWord": "(czytać)", "answer": "czytał", "options": ["czytał", "czytała", "czytałem", "czytać"] },
-        { "title": "Czas przeszły", "number": "ona", "context": "Wczoraj ___ tę książkę do końca.", "baseWord": "(czytać)", "answer": "czytała", "options": ["czytała", "czytał", "czytałam", "czytałaś"] },
-        { "title": "Czas przeszły", "number": "ja (m)", "context": "Przez rok ___ na siłownię trzy razy w tygodniu.", "baseWord": "(chodzić)", "answer": "chodziłem", "options": ["chodziłem", "chodziłam", "chodził", "chodziłeś"] },
-        { "title": "Czas przeszły", "number": "ja (f)", "context": "Przez rok ___ na siłownię trzy razy w tygodniu.", "baseWord": "(chodzić)", "answer": "chodziłam", "options": ["chodziłam", "chodziłem", "chodziła", "chodziłaś"] },
-        { "title": "Czas przeszły", "number": "oni", "context": "Studenci ___ razem do biblioteki.", "baseWord": "(iść)", "answer": "szli", "options": ["szli", "szły", "szedł", "szła"] },
-        { "title": "Czas przeszły", "number": "one", "context": "Studentki ___ razem do biblioteki.", "baseWord": "(iść)", "answer": "szły", "options": ["szły", "szli", "szedł", "szła"] },
-        { "title": "Czas przeszły – e→a", "number": "on", "context": "On ___ to od razu.", "baseWord": "(rozumieć)", "answer": "rozumiał", "options": ["rozumiał", "rozumieł", "rozumiął", "rozumiała"] },
-        { "title": "Czas przeszły – e→a", "number": "ona", "context": "Ona ___ go przez okno.", "baseWord": "(widzieć)", "answer": "widziała", "options": ["widziała", "widział", "widziął", "widziela"] },
-        { "title": "Czas przeszły – e→a", "number": "ja (m)", "context": "Długo ___ to zrobić.", "baseWord": "(musieć)", "answer": "musiałem", "options": ["musiałem", "musiełem", "musiąłem", "musiałam"] },
-        { "title": "Czas przeszły – e→a", "number": "ty (f)", "context": "Zawsze ___ dobrze śpiewać.", "baseWord": "(umieć)", "answer": "umiałaś", "options": ["umiałaś", "umiałeś", "umielaś", "umiałam"] },
-        { "title": "Czas przeszły – e→a", "number": "ona", "context": "Cały dzień ___ przy biurku.", "baseWord": "(siedzieć)", "answer": "siedziała", "options": ["siedziała", "siedział", "siedzieła", "siedziałam"] },
-        { "title": "Czas przeszły – e→a", "number": "ty (m)", "context": "Czy ___ o tym wydarzeniu wcześniej?", "baseWord": "(słyszeć)", "answer": "słyszałeś", "options": ["słyszałeś", "słyszałaś", "słyszełeś", "słyszałem"] },
-        { "title": "Czas przeszły – ą/ę", "number": "on", "context": "On ___ klucz ze stołu i wyszedł.", "baseWord": "(wziąć)", "answer": "wziął", "options": ["wziął", "wzięł", "wzięła", "wziąć"] },
-        { "title": "Czas przeszły – ą/ę", "number": "ona", "context": "Ona ___ torbę i wyszła z pokoju.", "baseWord": "(wziąć)", "answer": "wzięła", "options": ["wzięła", "wziął", "wziąła", "wzięłam"] },
-        { "title": "Czas przeszły – ą/ę", "number": "ona", "context": "Ona ___ oczy i zasnęła.", "baseWord": "(zamknąć)", "answer": "zamknęła", "options": ["zamknęła", "zamknął", "zamknęły", "zamknęłam"] },
-        { "title": "Czas przeszły – ą/ę", "number": "ja (m)", "context": "Wczoraj ___ nowy projekt.", "baseWord": "(zacząć)", "answer": "zacząłem", "options": ["zacząłem", "zaczęłem", "zaczął", "zaczęłam"] },
-        { "title": "Czas przeszły – ą/ę", "number": "ja (f)", "context": "Wczoraj ___ nowy projekt.", "baseWord": "(zacząć)", "answer": "zaczęłam", "options": ["zaczęłam", "zacząłam", "zaczęłem", "zaczęła"] },
-        { "title": "Czas przeszły – ą/ę", "number": "on", "context": "Nagle on ___ sens tego zdania.", "baseWord": "(pojąć)", "answer": "pojął", "options": ["pojął", "pojęł", "pojęła", "pojąć"] }
+        {
+            "title": "Czas przeszły",
+            "number": "on",
+            "context": "Wczoraj ___ tę książkę do końca.",
+            "baseWord": "(czytać)",
+            "answer": "czytał",
+            "options": [
+                "czytał",
+                "czytała",
+                "czytałem",
+                "czytać"
+            ]
+        },
+        {
+            "title": "Czas przeszły",
+            "number": "ona",
+            "context": "Wczoraj ___ tę książkę do końca.",
+            "baseWord": "(czytać)",
+            "answer": "czytała",
+            "options": [
+                "czytała",
+                "czytał",
+                "czytałam",
+                "czytałaś"
+            ]
+        },
+        {
+            "title": "Czas przeszły",
+            "number": "ja (m)",
+            "context": "Przez rok ___ na siłownię trzy razy w tygodniu.",
+            "baseWord": "(chodzić)",
+            "answer": "chodziłem",
+            "options": [
+                "chodziłem",
+                "chodziłam",
+                "chodził",
+                "chodziłeś"
+            ]
+        },
+        {
+            "title": "Czas przeszły",
+            "number": "ja (f)",
+            "context": "Przez rok ___ na siłownię trzy razy w tygodniu.",
+            "baseWord": "(chodzić)",
+            "answer": "chodziłam",
+            "options": [
+                "chodziłam",
+                "chodziłem",
+                "chodziła",
+                "chodziłaś"
+            ]
+        },
+        {
+            "title": "Czas przeszły",
+            "number": "oni",
+            "context": "Studenci ___ razem do biblioteki.",
+            "baseWord": "(iść)",
+            "answer": "szli",
+            "options": [
+                "szli",
+                "szły",
+                "szedł",
+                "szła"
+            ]
+        },
+        {
+            "title": "Czas przeszły",
+            "number": "one",
+            "context": "Studentki ___ razem do biblioteki.",
+            "baseWord": "(iść)",
+            "answer": "szły",
+            "options": [
+                "szły",
+                "szli",
+                "szedł",
+                "szła"
+            ]
+        },
+        {
+            "title": "Czas przeszły – e→a",
+            "number": "on",
+            "context": "On ___ to od razu.",
+            "baseWord": "(rozumieć)",
+            "answer": "rozumiał",
+            "options": [
+                "rozumiał",
+                "rozumieł",
+                "rozumiął",
+                "rozumiała"
+            ]
+        },
+        {
+            "title": "Czas przeszły – e→a",
+            "number": "ona",
+            "context": "Ona ___ go przez okno.",
+            "baseWord": "(widzieć)",
+            "answer": "widziała",
+            "options": [
+                "widziała",
+                "widział",
+                "widziął",
+                "widziela"
+            ]
+        },
+        {
+            "title": "Czas przeszły – e→a",
+            "number": "ja (m)",
+            "context": "Długo ___ to zrobić.",
+            "baseWord": "(musieć)",
+            "answer": "musiałem",
+            "options": [
+                "musiałem",
+                "musiełem",
+                "musiąłem",
+                "musiałam"
+            ]
+        },
+        {
+            "title": "Czas przeszły – e→a",
+            "number": "ty (f)",
+            "context": "Zawsze ___ dobrze śpiewać.",
+            "baseWord": "(umieć)",
+            "answer": "umiałaś",
+            "options": [
+                "umiałaś",
+                "umiałeś",
+                "umielaś",
+                "umiałam"
+            ]
+        },
+        {
+            "title": "Czas przeszły – e→a",
+            "number": "ona",
+            "context": "Cały dzień ___ przy biurku.",
+            "baseWord": "(siedzieć)",
+            "answer": "siedziała",
+            "options": [
+                "siedziała",
+                "siedział",
+                "siedzieła",
+                "siedziałam"
+            ]
+        },
+        {
+            "title": "Czas przeszły – e→a",
+            "number": "ty (m)",
+            "context": "Czy ___ o tym wydarzeniu wcześniej?",
+            "baseWord": "(słyszeć)",
+            "answer": "słyszałeś",
+            "options": [
+                "słyszałeś",
+                "słyszałaś",
+                "słyszełeś",
+                "słyszałem"
+            ]
+        },
+        {
+            "title": "Czas przeszły – ą/ę",
+            "number": "on",
+            "context": "On ___ klucz ze stołu i wyszedł.",
+            "baseWord": "(wziąć)",
+            "answer": "wziął",
+            "options": [
+                "wziął",
+                "wzięł",
+                "wzięła",
+                "wziąć"
+            ]
+        },
+        {
+            "title": "Czas przeszły – ą/ę",
+            "number": "ona",
+            "context": "Ona ___ torbę i wyszła z pokoju.",
+            "baseWord": "(wziąć)",
+            "answer": "wzięła",
+            "options": [
+                "wzięła",
+                "wziął",
+                "wziąła",
+                "wzięłam"
+            ]
+        },
+        {
+            "title": "Czas przeszły – ą/ę",
+            "number": "ona",
+            "context": "Ona ___ oczy i zasnęła.",
+            "baseWord": "(zamknąć)",
+            "answer": "zamknęła",
+            "options": [
+                "zamknęła",
+                "zamknął",
+                "zamknęły",
+                "zamknęłam"
+            ]
+        },
+        {
+            "title": "Czas przeszły – ą/ę",
+            "number": "ja (m)",
+            "context": "Wczoraj ___ nowy projekt.",
+            "baseWord": "(zacząć)",
+            "answer": "zacząłem",
+            "options": [
+                "zacząłem",
+                "zaczęłem",
+                "zaczął",
+                "zaczęłam"
+            ]
+        },
+        {
+            "title": "Czas przeszły – ą/ę",
+            "number": "ja (f)",
+            "context": "Wczoraj ___ nowy projekt.",
+            "baseWord": "(zacząć)",
+            "answer": "zaczęłam",
+            "options": [
+                "zaczęłam",
+                "zacząłam",
+                "zaczęłem",
+                "zaczęła"
+            ]
+        },
+        {
+            "title": "Czas przeszły – ą/ę",
+            "number": "on",
+            "context": "Nagle on ___ sens tego zdania.",
+            "baseWord": "(pojąć)",
+            "answer": "pojął",
+            "options": [
+                "pojął",
+                "pojęł",
+                "pojęła",
+                "pojąć"
+            ]
+        },
+        {
+            "title": "Czas przeszły – e→a",
+            "number": "on",
+            "context": "Wczoraj on ___ okularów.",
+            "baseWord": "(zapomnieć)",
+            "answer": "zapomniał",
+            "options": [
+                "zapomniał",
+                "zapomnieł",
+                "zapomniął",
+                "zapomniała"
+            ]
+        },
+        {
+            "title": "Czas przeszły – e→a",
+            "number": "ona",
+            "context": "Wczoraj ona ___ swoich okularów.",
+            "baseWord": "(zapomnieć)",
+            "answer": "zapomniała",
+            "options": [
+                "zapomniała",
+                "zapomniał",
+                "zapomnieła",
+                "zapomniła"
+            ]
+        },
+        {
+            "title": "Czas przeszły – e→a",
+            "number": "to",
+            "context": "Wiosną powietrze ___ bzem i konwaliami.",
+            "baseWord": "(pachnieć)",
+            "answer": "pachniało",
+            "options": [
+                "pachniało",
+                "pachnieło",
+                "pachniąło",
+                "pachniał"
+            ]
+        },
+        {
+            "title": "Czas przeszły – e→a",
+            "number": "ja (m)",
+            "context": "W zeszłym roku ___ stary rower.",
+            "baseWord": "(mieć)",
+            "answer": "miałem",
+            "options": [
+                "miałem",
+                "miełem",
+                "miałam",
+                "miałeś"
+            ]
+        },
+        {
+            "title": "Czas przeszły – e→a",
+            "number": "ty (f)",
+            "context": "Gdzie ___ te cukierki?",
+            "baseWord": "(mieć)",
+            "answer": "miałaś",
+            "options": [
+                "miałaś",
+                "miałeś",
+                "miełaś",
+                "miałam"
+            ]
+        },
+        {
+            "title": "Czas przeszły – ą/ę",
+            "number": "on",
+            "context": "Ktoś szybko ___ to miejsce.",
+            "baseWord": "(zająć)",
+            "answer": "zajął",
+            "options": [
+                "zajął",
+                "zajęł",
+                "zajęła",
+                "zająć"
+            ]
+        },
+        {
+            "title": "Czas przeszły – ą/ę",
+            "number": "ona",
+            "context": "Wczoraj ona ___ się chorymi dziećmi.",
+            "baseWord": "(zająć)",
+            "answer": "zajęła",
+            "options": [
+                "zajęła",
+                "zająła",
+                "zajęłam",
+                "zajął"
+            ]
+        },
+        {
+            "title": "Czas przeszły",
+            "number": "oni",
+            "context": "Wczoraj goście ___ tylko ciemne piwo.",
+            "baseWord": "(pić)",
+            "answer": "pili",
+            "options": [
+                "pili",
+                "piły",
+                "pił",
+                "piła"
+            ]
+        },
+        {
+            "title": "Czas przeszły",
+            "number": "one",
+            "context": "Dziewczyny ___ domu podczas burzy.",
+            "baseWord": "(pilnować)",
+            "answer": "pilnowały",
+            "options": [
+                "pilnowały",
+                "pilnowali",
+                "pilnował",
+                "pilnowała"
+            ]
+        },
+        {
+            "title": "Czas przeszły",
+            "number": "wy (m)",
+            "context": "Czy już ___ tę starą lodówkę?",
+            "baseWord": "(sprzedać)",
+            "answer": "sprzedaliście",
+            "options": [
+                "sprzedaliście",
+                "sprzedałyście",
+                "sprzedali",
+                "sprzedacie"
+            ]
+        }
     ],
     "czasPrzyszly": [
-        { "title": "Czas przyszły", "number": "dokonany · ja", "context": "Jutro na pewno ___ ten raport.", "baseWord": "(napisać)", "answer": "napiszę", "options": ["napiszę", "będę pisać", "piszę", "napisałem"] },
-        { "title": "Czas przyszły", "number": "niedokonany · ja", "context": "Jutro przez cały dzień ___ do egzaminu.", "baseWord": "(uczyć się)", "answer": "będę się uczyć", "options": ["będę się uczyć", "nauczę się", "uczę się", "uczyłem się"] },
-        { "title": "Czas przyszły", "number": "dokonany · ty", "context": "Czy jutro ___ do mnie po pracy?", "baseWord": "(zadzwonić)", "answer": "zadzwonisz", "options": ["zadzwonisz", "będziesz dzwonić", "dzwonisz", "zadzwoniłeś"] },
-        { "title": "Czas przyszły", "number": "niedokonany · ty", "context": "Co ___ w ten weekend?", "baseWord": "(robić)", "answer": "będziesz robić", "options": ["będziesz robić", "zrobisz", "robisz", "robiłeś"] },
-        { "title": "Czas przyszły", "number": "dokonany · on", "context": "On ___ ten projekt przed terminem.", "baseWord": "(skończyć)", "answer": "skończy", "options": ["skończy", "będzie kończyć", "kończy", "skończył"] },
-        { "title": "Czas przyszły", "number": "niedokonany · on", "context": "On ___ tu przez cały rok.", "baseWord": "(pracować)", "answer": "będzie pracować", "options": ["będzie pracować", "popracuje", "pracuje", "pracował"] },
-        { "title": "Czas przyszły", "number": "dokonany · my", "context": "Wieczorem ___ razem do kina.", "baseWord": "(pójść)", "answer": "pójdziemy", "options": ["pójdziemy", "będziemy iść", "idziemy", "szliśmy"] },
-        { "title": "Czas przyszły", "number": "niedokonany · my", "context": "Co roku ___ razem na wakacje.", "baseWord": "(jeździć)", "answer": "będziemy jeździć", "options": ["będziemy jeździć", "pojedziemy", "jeździmy", "jeździliśmy"] },
-        { "title": "Czas przyszły", "number": "dokonany · wy", "context": "Kiedy ___ to zadanie?", "baseWord": "(zrobić)", "answer": "zrobicie", "options": ["zrobicie", "będziecie robić", "robicie", "zrobiliście"] },
-        { "title": "Czas przyszły", "number": "niedokonany · oni", "context": "Przez wakacje oni ___ w górach.", "baseWord": "(mieszkać)", "answer": "będą mieszkać", "options": ["będą mieszkać", "zamieszkają", "mieszkają", "mieszkali"] },
-        { "title": "Czas przyszły", "number": "dokonany · ja", "context": "Jutro rano ___ ten email.", "baseWord": "(przeczytać)", "answer": "przeczytam", "options": ["przeczytam", "będę czytać", "czytam", "przeczytałem"] },
-        { "title": "Czas przyszły", "number": "niedokonany · ona", "context": "Ona codziennie rano ___ przez pół godziny.", "baseWord": "(biegać)", "answer": "będzie biegać", "options": ["będzie biegać", "pobiegnie", "biega", "biegała"] }
+        {
+            "title": "Czas przyszły",
+            "number": "dokonany · ja",
+            "context": "Jutro na pewno ___ ten raport.",
+            "baseWord": "(napisać)",
+            "answer": "napiszę",
+            "options": [
+                "napiszę",
+                "będę pisać",
+                "piszę",
+                "napisałem"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "niedokonany · ja",
+            "context": "Jutro przez cały dzień ___ do egzaminu.",
+            "baseWord": "(uczyć się)",
+            "answer": "będę się uczyć",
+            "options": [
+                "będę się uczyć",
+                "nauczę się",
+                "uczę się",
+                "uczyłem się"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "dokonany · ty",
+            "context": "Czy jutro ___ do mnie po pracy?",
+            "baseWord": "(zadzwonić)",
+            "answer": "zadzwonisz",
+            "options": [
+                "zadzwonisz",
+                "będziesz dzwonić",
+                "dzwonisz",
+                "zadzwoniłeś"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "niedokonany · ty",
+            "context": "Co ___ w ten weekend?",
+            "baseWord": "(robić)",
+            "answer": "będziesz robić",
+            "options": [
+                "będziesz robić",
+                "zrobisz",
+                "robisz",
+                "robiłeś"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "dokonany · on",
+            "context": "On ___ ten projekt przed terminem.",
+            "baseWord": "(skończyć)",
+            "answer": "skończy",
+            "options": [
+                "skończy",
+                "będzie kończyć",
+                "kończy",
+                "skończył"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "niedokonany · on",
+            "context": "On ___ tu przez cały rok.",
+            "baseWord": "(pracować)",
+            "answer": "będzie pracować",
+            "options": [
+                "będzie pracować",
+                "popracuje",
+                "pracuje",
+                "pracował"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "dokonany · my",
+            "context": "Wieczorem ___ razem do kina.",
+            "baseWord": "(pójść)",
+            "answer": "pójdziemy",
+            "options": [
+                "pójdziemy",
+                "będziemy iść",
+                "idziemy",
+                "szliśmy"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "niedokonany · my",
+            "context": "Co roku ___ razem na wakacje.",
+            "baseWord": "(jeździć)",
+            "answer": "będziemy jeździć",
+            "options": [
+                "będziemy jeździć",
+                "pojedziemy",
+                "jeździmy",
+                "jeździliśmy"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "dokonany · wy",
+            "context": "Kiedy ___ to zadanie?",
+            "baseWord": "(zrobić)",
+            "answer": "zrobicie",
+            "options": [
+                "zrobicie",
+                "będziecie robić",
+                "robicie",
+                "zrobiliście"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "niedokonany · oni",
+            "context": "Przez wakacje oni ___ w górach.",
+            "baseWord": "(mieszkać)",
+            "answer": "będą mieszkać",
+            "options": [
+                "będą mieszkać",
+                "zamieszkają",
+                "mieszkają",
+                "mieszkali"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "dokonany · ja",
+            "context": "Jutro rano ___ ten email.",
+            "baseWord": "(przeczytać)",
+            "answer": "przeczytam",
+            "options": [
+                "przeczytam",
+                "będę czytać",
+                "czytam",
+                "przeczytałem"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "niedokonany · ona",
+            "context": "Ona codziennie rano ___ przez pół godziny.",
+            "baseWord": "(biegać)",
+            "answer": "będzie biegać",
+            "options": [
+                "będzie biegać",
+                "pobiegnie",
+                "biega",
+                "biegała"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "dokonany · ja",
+            "context": "Jutro na pewno ___ ci nowy rower.",
+            "baseWord": "(kupić)",
+            "answer": "kupię",
+            "options": [
+                "kupię",
+                "będę kupować",
+                "kupuję",
+                "kupiłem"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "niedokonany · ja",
+            "context": "W weekend ___ prezenty dla rodziny.",
+            "baseWord": "(kupować)",
+            "answer": "będę kupować",
+            "options": [
+                "będę kupować",
+                "kupię",
+                "kupuję",
+                "kupiłem"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "dokonany · ty",
+            "context": "Czy jutro ___ mi w trudnej pracy?",
+            "baseWord": "(pomóc)",
+            "answer": "pomożesz",
+            "options": [
+                "pomożesz",
+                "będziesz pomagać",
+                "pomagasz",
+                "pomogłeś"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "niedokonany · ty",
+            "context": "Czy ___ mi co tydzień z tym projektem?",
+            "baseWord": "(pomagać)",
+            "answer": "będziesz pomagać",
+            "options": [
+                "będziesz pomagać",
+                "pomożesz",
+                "pomagasz",
+                "pomagałeś"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "dokonany · on",
+            "context": "W sobotę on w końcu ___ to interesujące muzeum.",
+            "baseWord": "(zwiedzić)",
+            "answer": "zwiedzi",
+            "options": [
+                "zwiedzi",
+                "będzie zwiedzać",
+                "zwiedza",
+                "zwiedził"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "niedokonany · on",
+            "context": "On ___ Kraków przez cały urlop.",
+            "baseWord": "(zwiedzać)",
+            "answer": "będzie zwiedzać",
+            "options": [
+                "będzie zwiedzać",
+                "zwiedzi",
+                "zwiedza",
+                "zwiedzał"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "dokonany · my",
+            "context": "Niedługo na pewno ___ nową lodówkę.",
+            "baseWord": "(dostać)",
+            "answer": "dostaniemy",
+            "options": [
+                "dostaniemy",
+                "będziemy dostawać",
+                "dostajemy",
+                "dostaliśmy"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "niedokonany · my",
+            "context": "Co miesiąc ___ nową wypłatę.",
+            "baseWord": "(dostawać)",
+            "answer": "będziemy dostawać",
+            "options": [
+                "będziemy dostawać",
+                "dostaniemy",
+                "dostajemy",
+                "dostawaliśmy"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "dokonany · wy",
+            "context": "Co ___ babci na urodziny?",
+            "baseWord": "(podarować)",
+            "answer": "podarujecie",
+            "options": [
+                "podarujecie",
+                "będziecie darować",
+                "darujecie",
+                "podarowaliście"
+            ]
+        },
+        {
+            "title": "Czas przyszły",
+            "number": "niedokonany · oni",
+            "context": "Wszyscy znajomi ___ wam tej wspaniałej podróży.",
+            "baseWord": "(zazdrościć)",
+            "answer": "będą zazdrościć",
+            "options": [
+                "będą zazdrościć",
+                "pozazdroszczą",
+                "zazdroszczą",
+                "zazdrościli"
+            ]
+        }
     ]
 }
