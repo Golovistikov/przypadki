@@ -2,7 +2,7 @@
     "przypadki": [
         {
             "title": "Miejscownik (o kim? o czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Często myślę o ___.",
             "baseWord": "(dobry student)",
             "answer": "dobrym studencie",
@@ -15,7 +15,7 @@
         },
         {
             "title": "Miejscownik (o kim? o czym?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Szukamy ogłoszeń o ___ w Gdańsku.",
             "baseWord": "(nowe mieszkania)",
             "answer": "nowych mieszkaniach",
@@ -28,7 +28,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Idę na spacer z ___.",
             "baseWord": "(dobra studentka)",
             "answer": "dobrą studentką",
@@ -41,7 +41,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Interesuję się ___.",
             "baseWord": "(nowe mieszkania)",
             "answer": "nowymi mieszkaniami",
@@ -54,7 +54,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Szukam ___.",
             "baseWord": "(zły humor)",
             "answer": "złego humoru",
@@ -67,7 +67,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "W tej grupie nie ma ___.",
             "baseWord": "(dobrzy studenci)",
             "answer": "dobrych studentów",
@@ -80,7 +80,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Mam ___.",
             "baseWord": "(nowe mieszkanie)",
             "answer": "nowe mieszkanie",
@@ -93,7 +93,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Pomagam ___.",
             "baseWord": "(dobra studentka)",
             "answer": "dobrej studentce",
@@ -106,7 +106,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Ona zajmuje się ___.",
             "baseWord": "(chora córka)",
             "answer": "chorą córką",
@@ -119,7 +119,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Wszyscy zachwycaliśmy się ___.",
             "baseWord": "(wspaniałe widoki)",
             "answer": "wspaniałymi widokami",
@@ -132,7 +132,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Martwię się ___.",
             "baseWord": "(twoja choroba)",
             "answer": "twoją chorobą",
@@ -145,7 +145,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Rodzice cieszą się ___.",
             "baseWord": "(nowe mieszkanie)",
             "answer": "nowym mieszkaniem",
@@ -158,7 +158,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Jasio umie już jeść ___.",
             "baseWord": "(łyżka)",
             "answer": "łyżką",
@@ -171,7 +171,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Dziecko rysuje ___.",
             "baseWord": "(nowy ołówek)",
             "answer": "nowym ołówkiem",
@@ -184,7 +184,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Wolę pisać ___ niż długopisem.",
             "baseWord": "(pióro)",
             "answer": "piórem",
@@ -197,7 +197,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Kasia czesze się ___.",
             "baseWord": "(gęsta szczotka)",
             "answer": "gęstą szczotką",
@@ -210,7 +210,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Wujek zawsze myje się ___.",
             "baseWord": "(zimna woda)",
             "answer": "zimną wodą",
@@ -223,7 +223,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Mama smaruje chleb ___.",
             "baseWord": "(masło)",
             "answer": "masłem",
@@ -236,7 +236,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Hania bawi się z ___.",
             "baseWord": "(mały Pawełek)",
             "answer": "małym Pawełkiem",
@@ -249,7 +249,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Uważaj, żebyś nie zaraził się ___.",
             "baseWord": "(żółtaczka)",
             "answer": "żółtaczką",
@@ -262,7 +262,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Strasznie zmęczyliśmy się ___.",
             "baseWord": "(ta wizyta)",
             "answer": "tą wizytą",
@@ -275,7 +275,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Po wypadku nie mógł ruszać ___.",
             "baseWord": "(nogi)",
             "answer": "nogami",
@@ -288,7 +288,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Nasza Łucja rządzi ___.",
             "baseWord": "(cała grupa)",
             "answer": "całą grupą",
@@ -301,7 +301,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Policjant kierował ___.",
             "baseWord": "(ruch)",
             "answer": "ruchem",
@@ -314,7 +314,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Powietrze pachniało ___.",
             "baseWord": "(konwalie)",
             "answer": "konwaliami",
@@ -327,7 +327,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Danka jedzie ___.",
             "baseWord": "(taksówka)",
             "answer": "taksówką",
@@ -340,7 +340,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Lubię jeździć ___.",
             "baseWord": "(tramwaj)",
             "answer": "tramwajem",
@@ -353,7 +353,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Prezydent leciał ___.",
             "baseWord": "(prywatny samolot)",
             "answer": "prywatnym samolotem",
@@ -366,7 +366,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Pływali po jeziorze ___.",
             "baseWord": "(niewielki kajak)",
             "answer": "niewielkim kajakiem",
@@ -379,7 +379,7 @@
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Janek ciągle chwali się ___.",
             "baseWord": "(swoje osiągnięcia)",
             "answer": "swoimi osiągnięciami",
@@ -392,7 +392,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Znasz ___?",
             "baseWord": "(ten chłopiec)",
             "answer": "tego chłopca",
@@ -405,7 +405,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Zwiedziliśmy ___.",
             "baseWord": "(interesująca wystawa)",
             "answer": "interesującą wystawę",
@@ -418,7 +418,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Odwiedziłem wczoraj ___.",
             "baseWord": "(twoi rodzice)",
             "answer": "twoich rodziców",
@@ -431,7 +431,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Ona naprawdę kocha ___.",
             "baseWord": "(taniec)",
             "answer": "taniec",
@@ -444,7 +444,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Kupił mi ___.",
             "baseWord": "(piękne kwiaty)",
             "answer": "piękne kwiaty",
@@ -457,7 +457,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Mój ojciec zbiera ___.",
             "baseWord": "(stare monety)",
             "answer": "stare monety",
@@ -470,7 +470,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Piję tylko ___.",
             "baseWord": "(ciemne piwo)",
             "answer": "ciemne piwo",
@@ -483,7 +483,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Pan Jan pisze zawsze ___.",
             "baseWord": "(długie listy)",
             "answer": "długie listy",
@@ -496,7 +496,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Zjedliśmy ___.",
             "baseWord": "(wszystkie cukierki)",
             "answer": "wszystkie cukierki",
@@ -509,7 +509,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Bardzo lubimy ___.",
             "baseWord": "(owoce morza)",
             "answer": "owoce morza",
@@ -522,7 +522,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Chciałbym dostać ___.",
             "baseWord": "(nowy rower)",
             "answer": "nowy rower",
@@ -535,7 +535,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Proszę narysować ___.",
             "baseWord": "(swój pokój)",
             "answer": "swój pokój",
@@ -548,7 +548,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Sprzedam ___.",
             "baseWord": "(nowa lodówka)",
             "answer": "nową lodówkę",
@@ -561,7 +561,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Babcia musi brać ___.",
             "baseWord": "(antybiotyki)",
             "answer": "antybiotyki",
@@ -574,7 +574,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Jadzia buduje wieżę z ___.",
             "baseWord": "(klocki)",
             "answer": "klocków",
@@ -587,7 +587,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Widzę tam ___.",
             "baseWord": "(włoska restauracja)",
             "answer": "włoską restaurację",
@@ -600,7 +600,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Czytam ___.",
             "baseWord": "(ciekawa powieść)",
             "answer": "ciekawą powieść",
@@ -613,7 +613,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Czy możesz mi otworzyć ___?",
             "baseWord": "(puszka kukurydzy)",
             "answer": "puszkę kukurydzy",
@@ -626,7 +626,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Zamknij ___!",
             "baseWord": "(nasze walizki)",
             "answer": "nasze walizki",
@@ -639,7 +639,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Proszę o ___!",
             "baseWord": "(cisza)",
             "answer": "ciszę",
@@ -652,7 +652,7 @@
         },
         {
             "title": "Biernik (kogo? co?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Pani Julia robi ___.",
             "baseWord": "(pyszna zupa)",
             "answer": "pyszną zupę",
@@ -665,7 +665,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Szukam dobrej pracy w ___.",
             "baseWord": "(Gdańsk)",
             "answer": "Gdańsku",
@@ -678,7 +678,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Życzymy wam ___.",
             "baseWord": "(wesołe święta)",
             "answer": "wesołych świąt",
@@ -691,7 +691,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Szukam ___.",
             "baseWord": "(mój klucz)",
             "answer": "mojego klucza",
@@ -704,7 +704,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Adaś boi się ___.",
             "baseWord": "(burza)",
             "answer": "burzy",
@@ -717,7 +717,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Potrzebujemy ___.",
             "baseWord": "(zielona farba)",
             "answer": "zielonej farby",
@@ -730,7 +730,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Musi pani unikać ___.",
             "baseWord": "(słońce)",
             "answer": "słońca",
@@ -743,7 +743,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Rodzice pragną ___ dla swoich dzieci.",
             "baseWord": "(szczęście)",
             "answer": "szczęścia",
@@ -756,7 +756,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Zazdroszczę wam ___.",
             "baseWord": "(te wspaniałe podróże)",
             "answer": "tych wspaniałych podróży",
@@ -769,7 +769,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Spodziewamy się ___.",
             "baseWord": "(mili goście)",
             "answer": "miłych gości",
@@ -782,7 +782,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Słucham ___.",
             "baseWord": "(koncert)",
             "answer": "koncertu",
@@ -795,7 +795,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Wieczorami uczy się ___.",
             "baseWord": "(język portugalski)",
             "answer": "języka portugalskiego",
@@ -808,7 +808,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Często zapominam ___.",
             "baseWord": "(okulary)",
             "answer": "okularów",
@@ -821,7 +821,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Strajkujący żądają ___.",
             "baseWord": "(podwyżka)",
             "answer": "podwyżki",
@@ -834,7 +834,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Żałuję ___.",
             "baseWord": "(tamte chwile)",
             "answer": "tamtych chwil",
@@ -847,7 +847,7 @@
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Pies pilnuje ___.",
             "baseWord": "(dom)",
             "answer": "domu",
@@ -860,7 +860,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Dałem gitarę ___.",
             "baseWord": "(mój przyjaciel)",
             "answer": "mojemu przyjacielowi",
@@ -873,7 +873,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Podaruję ___ obraz.",
             "baseWord": "(ty)",
             "answer": "ci",
@@ -886,7 +886,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Złodzieje ukradli ___ biżuterię.",
             "baseWord": "(oni)",
             "answer": "im",
@@ -899,7 +899,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Pomożemy ___ znaleźć pracę.",
             "baseWord": "(wy)",
             "answer": "wam",
@@ -912,7 +912,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Alkohol szkodzi ___.",
             "baseWord": "(każdy)",
             "answer": "każdemu",
@@ -925,7 +925,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Nie ufajcie ___.",
             "baseWord": "(nikt)",
             "answer": "nikomu",
@@ -938,7 +938,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Wierzysz ___?",
             "baseWord": "(on)",
             "answer": "mu",
@@ -951,7 +951,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Nie mówcie ___ o tym zdarzeniu.",
             "baseWord": "(rodzice)",
             "answer": "rodzicom",
@@ -964,7 +964,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Przypomnij ___ o naszym spotkaniu.",
             "baseWord": "(koledzy)",
             "answer": "kolegom",
@@ -977,7 +977,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Opowiedz ___ bajkę.",
             "baseWord": "(ja)",
             "answer": "mi",
@@ -990,7 +990,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Nie dokuczaj ___.",
             "baseWord": "(siostra)",
             "answer": "siostrze",
@@ -1003,7 +1003,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Podobało ___ się to mieszkanie?",
             "baseWord": "(ona)",
             "answer": "jej",
@@ -1016,7 +1016,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Bardzo serdecznie ___ dziękujemy.",
             "baseWord": "(wy)",
             "answer": "wam",
@@ -1029,7 +1029,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Dziwię ___ się, że chcesz tu pracować.",
             "baseWord": "(ty)",
             "answer": "ci",
@@ -1042,7 +1042,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "sing",
+            "number": "l.poj.",
             "context": "Zazdrościła ___ wszystkiego.",
             "baseWord": "(my)",
             "answer": "nam",
@@ -1055,7 +1055,7 @@
         },
         {
             "title": "Celownik (komu? czemu?)",
-            "number": "plur",
+            "number": "l.mn.",
             "context": "Życzymy ___ wszystkiego najlepszego.",
             "baseWord": "(wy)",
             "answer": "wam",
