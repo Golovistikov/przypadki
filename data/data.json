@@ -11,7 +11,8 @@
                 "dobrego studenta",
                 "dobremu studentowi",
                 "dobry student"
-            ]
+            ],
+            "rule": "Miejscownik (m): -ym, -e (t→cie)"
         },
         {
             "title": "Miejscownik (o kim? o czym?)",
@@ -24,7 +25,8 @@
                 "nowe mieszkania",
                 "nowym mieszkaniu",
                 "nowymi mieszkaniami"
-            ]
+            ],
+            "rule": "Miejscownik (l.mn): -ych, -ach"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -37,7 +39,8 @@
                 "dobrej studentki",
                 "dobra studentka",
                 "dobrą studentkę"
-            ]
+            ],
+            "rule": "Narzędnik (f): -ą, -ą"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -50,7 +53,8 @@
                 "nowych mieszkań",
                 "nowe mieszkania",
                 "nowym mieszkaniu"
-            ]
+            ],
+            "rule": "Narzędnik (l.mn): -ymi, -ami"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -63,7 +67,8 @@
                 "zły humor",
                 "złym humorze",
                 "złych humorów"
-            ]
+            ],
+            "rule": "Dopełniacz (m): -ego, -u"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -76,7 +81,8 @@
                 "dobrzy studenci",
                 "dobrym studentom",
                 "dobrych studentach"
-            ]
+            ],
+            "rule": "Dopełniacz (l.mn): -ych, -ów"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -89,7 +95,8 @@
                 "nowego mieszkania",
                 "nowym mieszkaniu",
                 "nowego mieszkaniu"
-            ]
+            ],
+            "rule": "Biernik (n): jak Mianownik"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -102,7 +109,8 @@
                 "dobrą studentkę",
                 "dobra studentka",
                 "dobrej studentki"
-            ]
+            ],
+            "rule": "Celownik (f): -ej, -e (k→ce)"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -115,7 +123,8 @@
                 "chorej córki",
                 "chora córka",
                 "chorą córkę"
-            ]
+            ],
+            "rule": "Narzędnik (f): -ą, -ą"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -128,7 +137,8 @@
                 "wspaniałych widoków",
                 "wspaniałe widoki",
                 "wspaniałym widokiem"
-            ]
+            ],
+            "rule": "Narzędnik (l.mn): -ymi, -ami"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -141,7 +151,8 @@
                 "twojej choroby",
                 "twoja choroba",
                 "twoją chorobę"
-            ]
+            ],
+            "rule": "Narzędnik (f): -ą, -ą"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -154,7 +165,8 @@
                 "nowego mieszkania",
                 "nowe mieszkanie",
                 "nowym mieszkaniu"
-            ]
+            ],
+            "rule": "Narzędnik (n): -ym, -em"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -167,7 +179,8 @@
                 "łyżkę",
                 "łyżka",
                 "łyżki"
-            ]
+            ],
+            "rule": "Narzędnik (f): -ą"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -180,7 +193,8 @@
                 "nowy ołówek",
                 "nowego ołówka",
                 "nowym ołówku"
-            ]
+            ],
+            "rule": "Narzędnik (m): -ym, -em (ek→kiem)"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -193,7 +207,8 @@
                 "pióro",
                 "pióra",
                 "piórze"
-            ]
+            ],
+            "rule": "Narzędnik (n): -em"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -206,7 +221,8 @@
                 "gęstą szczotkę",
                 "gęsta szczotka",
                 "gęstej szczotki"
-            ]
+            ],
+            "rule": "Narzędnik (f): -ą, -ą"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -219,7 +235,8 @@
                 "zimną wodę",
                 "zimna woda",
                 "zimnej wody"
-            ]
+            ],
+            "rule": "Narzędnik (f): -ą, -ą"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -232,7 +249,8 @@
                 "masło",
                 "masła",
                 "maśle"
-            ]
+            ],
+            "rule": "Narzędnik (n): -em"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -245,7 +263,8 @@
                 "małego Pawełka",
                 "mały Pawełek",
                 "małym Pawełku"
-            ]
+            ],
+            "rule": "Narzędnik (m): -ym, -em (ek→kiem)"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -258,7 +277,8 @@
                 "żółtaczkę",
                 "żółtaczka",
                 "żółtaczki"
-            ]
+            ],
+            "rule": "Narzędnik (f): -ą"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -271,7 +291,8 @@
                 "tej wizyty",
                 "tę wizytę",
                 "ta wizyta"
-            ]
+            ],
+            "rule": "Narzędnik (f): zaimek -ą, rzecz -ą"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -284,7 +305,8 @@
                 "nóg",
                 "nogi",
                 "nogach"
-            ]
+            ],
+            "rule": "Narzędnik (l.mn): -ami"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -297,7 +319,8 @@
                 "całej grupy",
                 "całą grupę",
                 "cała grupa"
-            ]
+            ],
+            "rule": "Narzędnik (f): -ą, -ą"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -310,7 +333,8 @@
                 "ruch",
                 "ruchu",
                 "ruchu"
-            ]
+            ],
+            "rule": "Narzędnik (m): -em"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -323,7 +347,8 @@
                 "konwalii",
                 "konwalie",
                 "konwaliach"
-            ]
+            ],
+            "rule": "Narzędnik (l.mn): -ami"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -336,7 +361,8 @@
                 "taksówkę",
                 "taksówki",
                 "taksówka"
-            ]
+            ],
+            "rule": "Narzędnik (f): -ą"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -349,7 +375,8 @@
                 "tramwaj",
                 "tramwaju",
                 "tramwajowi"
-            ]
+            ],
+            "rule": "Narzędnik (m): -em"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -362,7 +389,8 @@
                 "prywatnego samolotu",
                 "prywatny samolot",
                 "prywatnym samolocie"
-            ]
+            ],
+            "rule": "Narzędnik (m): -ym, -em"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -375,7 +403,8 @@
                 "niewielki kajak",
                 "niewielkiego kajaka",
                 "niewielkim kajaku"
-            ]
+            ],
+            "rule": "Narzędnik (m): -im, -iem (k→kiem)"
         },
         {
             "title": "Narzędnik (z kim? z czym?)",
@@ -388,7 +417,8 @@
                 "swoich osiągnięć",
                 "swoje osiągnięcia",
                 "swoim osiągnięciu"
-            ]
+            ],
+            "rule": "Narzędnik (l.mn): zaimek -imi, rzecz -ami"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -401,7 +431,8 @@
                 "ten chłopiec",
                 "temu chłopcu",
                 "tym chłopcem"
-            ]
+            ],
+            "rule": "Biernik (m-żyw): jak Dopełniacz (-ego, -a)"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -414,7 +445,8 @@
                 "interesującej wystawy",
                 "interesującą wystawą",
                 "interesująca wystawa"
-            ]
+            ],
+            "rule": "Biernik (f): -ą, -ę"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -427,7 +459,8 @@
                 "twoimi rodzicami",
                 "twoi rodzice",
                 "twoim rodzicom"
-            ]
+            ],
+            "rule": "Biernik (oni): jak Dopełniacz (-ich, -ów)"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -440,7 +473,8 @@
                 "tańca",
                 "tańcem",
                 "tańcowi"
-            ]
+            ],
+            "rule": "Biernik (m-nieżyw): jak Mianownik"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -453,7 +487,8 @@
                 "pięknych kwiatów",
                 "pięknymi kwiatami",
                 "pięknym kwiatom"
-            ]
+            ],
+            "rule": "Biernik (one): jak Mianownik"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -466,7 +501,8 @@
                 "starych monet",
                 "starymi monetami",
                 "starych monetach"
-            ]
+            ],
+            "rule": "Biernik (one): jak Mianownik"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -479,7 +515,8 @@
                 "ciemnego piwa",
                 "ciemnym piwem",
                 "ciemnemu piwu"
-            ]
+            ],
+            "rule": "Biernik (n): jak Mianownik"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -492,7 +529,8 @@
                 "długich listów",
                 "długimi listami",
                 "długim listom"
-            ]
+            ],
+            "rule": "Biernik (one): jak Mianownik"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -505,7 +543,8 @@
                 "wszystkich cukierków",
                 "wszystkimi cukierkami",
                 "wszystkim cukierkom"
-            ]
+            ],
+            "rule": "Biernik (one): jak Mianownik"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -518,7 +557,8 @@
                 "owoców morza",
                 "owocami morza",
                 "owocom morza"
-            ]
+            ],
+            "rule": "Biernik (one): jak Mianownik"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -531,7 +571,8 @@
                 "nowego roweru",
                 "nowym rowerem",
                 "nowemu rowerowi"
-            ]
+            ],
+            "rule": "Biernik (m-nieżyw): jak Mianownik"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -544,7 +585,8 @@
                 "swojego pokoju",
                 "swoim pokojem",
                 "swojemu pokojowi"
-            ]
+            ],
+            "rule": "Biernik (m-nieżyw): jak Mianownik"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -557,7 +599,8 @@
                 "nowej lodówki",
                 "nową lodówką",
                 "nowa lodówka"
-            ]
+            ],
+            "rule": "Biernik (f): -ą, -ę"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -570,7 +613,8 @@
                 "antybiotyków",
                 "antybiotykami",
                 "antybiotykom"
-            ]
+            ],
+            "rule": "Biernik (one): jak Mianownik"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -583,7 +627,8 @@
                 "klocki",
                 "klockami",
                 "klockach"
-            ]
+            ],
+            "rule": "Dopełniacz (l.mn): po 'z' (-ów)"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -596,7 +641,8 @@
                 "włoskiej restauracji",
                 "włoską restauracją",
                 "włoska restauracja"
-            ]
+            ],
+            "rule": "Biernik (f): -ą, -ę"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -609,7 +655,8 @@
                 "ciekawej powieści",
                 "ciekawą powieścią",
                 "ciekawa powieść"
-            ]
+            ],
+            "rule": "Biernik (f) na spółgłoskę: bez zmian"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -622,7 +669,8 @@
                 "puszki kukurydzy",
                 "puszką kukurydzy",
                 "puszka kukurydzy"
-            ]
+            ],
+            "rule": "Biernik (f): rzecz -ę (kukurydzy to Dop.)"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -635,7 +683,8 @@
                 "naszych walizek",
                 "naszymi walizkami",
                 "naszym walizkom"
-            ]
+            ],
+            "rule": "Biernik (one): jak Mianownik"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -648,7 +697,8 @@
                 "ciszy",
                 "ciszą",
                 "cisza"
-            ]
+            ],
+            "rule": "Biernik (f): -ę"
         },
         {
             "title": "Biernik (kogo? co?)",
@@ -661,7 +711,8 @@
                 "pysznej zupy",
                 "pyszną zupą",
                 "pyszna zupa"
-            ]
+            ],
+            "rule": "Biernik (f): -ą, -ę"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -674,7 +725,8 @@
                 "Gdańska",
                 "Gdańskiem",
                 "Gdańsk"
-            ]
+            ],
+            "rule": "Miejscownik (m): po 'w' (-u)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -687,7 +739,8 @@
                 "wesołymi świętami",
                 "wesołym świętom",
                 "wesołe święta"
-            ]
+            ],
+            "rule": "Dopełniacz (l.mn): po 'życzyć' (-ych, ę→ąt)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -700,7 +753,8 @@
                 "mój klucz",
                 "moim kluczem",
                 "mojemu kluczowi"
-            ]
+            ],
+            "rule": "Dopełniacz (m): po 'szukać' (-ego, -a)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -713,7 +767,8 @@
                 "burzę",
                 "burzą",
                 "burza"
-            ]
+            ],
+            "rule": "Dopełniacz (f): po 'bać się' (-y)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -726,7 +781,8 @@
                 "zieloną farbę",
                 "zieloną farbą",
                 "zielona farba"
-            ]
+            ],
+            "rule": "Dopełniacz (f): po 'potrzebować' (-ej, -y)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -739,7 +795,8 @@
                 "słońce",
                 "słońcem",
                 "słońcu"
-            ]
+            ],
+            "rule": "Dopełniacz (n): po 'unikać' (-a)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -752,7 +809,8 @@
                 "szczęście",
                 "szczęściem",
                 "szczęściu"
-            ]
+            ],
+            "rule": "Dopełniacz (n): po 'pragnąć' (-a)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -765,7 +823,8 @@
                 "te wspaniałe podróże",
                 "tymi wspaniałymi podróżami",
                 "tym wspaniałym podróżom"
-            ]
+            ],
+            "rule": "Dopełniacz (l.mn): po 'zazdrościć' (-ych, -y)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -778,7 +837,8 @@
                 "miłymi gośćmi",
                 "mili goście",
                 "miłym gościom"
-            ]
+            ],
+            "rule": "Dopełniacz (l.mn): po 'spodziewać się' (-ych, -i)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -791,7 +851,8 @@
                 "koncert",
                 "koncertem",
                 "koncertowi"
-            ]
+            ],
+            "rule": "Dopełniacz (m): po 'słuchać' (-u)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -804,7 +865,8 @@
                 "język portugalski",
                 "językiem portugalskim",
                 "językowi portugalskiemu"
-            ]
+            ],
+            "rule": "Dopełniacz (m): po 'uczyć się' (-a, -ego)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -817,7 +879,8 @@
                 "okulary",
                 "okularami",
                 "okularom"
-            ]
+            ],
+            "rule": "Dopełniacz (l.mn): po 'zapominać' (-ów)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -830,7 +893,8 @@
                 "podwyżkę",
                 "podwyżką",
                 "podwyżka"
-            ]
+            ],
+            "rule": "Dopełniacz (f): po 'żądać' (-i)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -843,7 +907,8 @@
                 "tamte chwile",
                 "tamtymi chwilami",
                 "tamtym chwilom"
-            ]
+            ],
+            "rule": "Dopełniacz (l.mn): po 'żałować' (-ych, brak końc.)"
         },
         {
             "title": "Dopełniacz (kogo? czego?)",
@@ -856,7 +921,8 @@
                 "dom",
                 "domem",
                 "domowi"
-            ]
+            ],
+            "rule": "Dopełniacz (m): po 'pilnować' (-u)"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -869,7 +935,8 @@
                 "mojego przyjaciela",
                 "moim przyjacielem",
                 "mój przyjaciel"
-            ]
+            ],
+            "rule": "Celownik (m): -emu, -owi"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -882,7 +949,8 @@
                 "ciebie",
                 "tobą",
                 "cię"
-            ]
+            ],
+            "rule": "Celownik: ty → ci"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -895,7 +963,8 @@
                 "nich",
                 "nimi",
                 "ich"
-            ]
+            ],
+            "rule": "Celownik: oni → im"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -908,7 +977,8 @@
                 "was",
                 "wami",
                 "wy"
-            ]
+            ],
+            "rule": "Celownik: wy → wam"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -921,7 +991,8 @@
                 "każdego",
                 "każdym",
                 "każdy"
-            ]
+            ],
+            "rule": "Celownik: każdy → każdemu"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -934,7 +1005,8 @@
                 "nikogo",
                 "nikim",
                 "nikt"
-            ]
+            ],
+            "rule": "Celownik: nikt → nikomu"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -947,7 +1019,8 @@
                 "jego",
                 "nim",
                 "niego"
-            ]
+            ],
+            "rule": "Celownik: on → mu"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -960,7 +1033,8 @@
                 "rodziców",
                 "rodzicami",
                 "rodzice"
-            ]
+            ],
+            "rule": "Celownik (l.mn): -om"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -973,7 +1047,8 @@
                 "kolegów",
                 "kolegami",
                 "koledzy"
-            ]
+            ],
+            "rule": "Celownik (l.mn): -om"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -986,7 +1061,8 @@
                 "mnie",
                 "mną",
                 "ja"
-            ]
+            ],
+            "rule": "Celownik: ja → mi"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -999,7 +1075,8 @@
                 "siostry",
                 "siostrę",
                 "siostrą"
-            ]
+            ],
+            "rule": "Celownik (f): -e (r→rz)"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -1012,7 +1089,8 @@
                 "ją",
                 "nią",
                 "nie"
-            ]
+            ],
+            "rule": "Celownik: ona → jej"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -1025,7 +1103,8 @@
                 "was",
                 "wami",
                 "wy"
-            ]
+            ],
+            "rule": "Celownik: wy → wam"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -1038,7 +1117,8 @@
                 "ciebie",
                 "tobą",
                 "cię"
-            ]
+            ],
+            "rule": "Celownik: ty → ci"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -1051,7 +1131,8 @@
                 "nas",
                 "nami",
                 "my"
-            ]
+            ],
+            "rule": "Celownik: my → nam"
         },
         {
             "title": "Celownik (komu? czemu?)",
@@ -1064,7 +1145,8 @@
                 "was",
                 "wami",
                 "wy"
-            ]
+            ],
+            "rule": "Celownik: wy → wam"
         }
     ],
     "tryb": [
@@ -1079,7 +1161,8 @@
                 "pójśćbym",
                 "poszłabym",
                 "pójść"
-            ]
+            ],
+            "rule": "Tryb warunkowy: -ł + bym"
         },
         {
             "title": "Tryb warunkowy",
@@ -1092,7 +1175,8 @@
                 "mogłabyś",
                 "mócbyś",
                 "mogliście"
-            ]
+            ],
+            "rule": "Tryb warunkowy: -ł + byś"
         },
         {
             "title": "Spójnik + by",
@@ -1105,7 +1189,8 @@
                 "żebym",
                 "żebyś",
                 "gdyby"
-            ]
+            ],
+            "rule": "Spójnik: że + by"
         },
         {
             "title": "Gdy + by",
@@ -1118,7 +1203,8 @@
                 "gdybyś",
                 "gdyby",
                 "gdybyśmy"
-            ]
+            ],
+            "rule": "Spójnik: gdy + bym"
         },
         {
             "title": "Jeśli + by",
@@ -1131,7 +1217,8 @@
                 "jeślibym",
                 "jeśliby",
                 "jeślibyście"
-            ]
+            ],
+            "rule": "Spójnik: jeśli + byś"
         },
         {
             "title": "Tryb warunkowy",
@@ -1144,7 +1231,8 @@
                 "pojechałybyśmy",
                 "pojechaćbyśmy",
                 "pojechaliśmy"
-            ]
+            ],
+            "rule": "Tryb warunkowy: -li + byśmy"
         },
         {
             "title": "Tryb warunkowy",
@@ -1157,7 +1245,8 @@
                 "zajęłabyś",
                 "zająćbyś",
                 "zająłeś"
-            ]
+            ],
+            "rule": "Tryb warunkowy: -ł + byś (ą zostaje)"
         },
         {
             "title": "Tryb warunkowy",
@@ -1170,7 +1259,8 @@
                 "bałbym",
                 "baćbym",
                 "bałam"
-            ]
+            ],
+            "rule": "Tryb warunkowy: -ła + bym"
         },
         {
             "title": "Spójnik + by",
@@ -1183,7 +1273,8 @@
                 "żeby",
                 "żebyście",
                 "żebym"
-            ]
+            ],
+            "rule": "Spójnik: że + byśmy"
         },
         {
             "title": "Tryb warunkowy",
@@ -1196,7 +1287,8 @@
                 "pomogłybyście",
                 "pomócbyście",
                 "pomogliście"
-            ]
+            ],
+            "rule": "Tryb warunkowy: -li + byście"
         },
         {
             "title": "Tryb warunkowy",
@@ -1209,7 +1301,8 @@
                 "jeździłybyśmy",
                 "jeździliśmy",
                 "jeździćbyśmy"
-            ]
+            ],
+            "rule": "Tryb warunkowy: -li + byśmy"
         },
         {
             "title": "Gdy + by",
@@ -1222,7 +1315,8 @@
                 "gdybym",
                 "gdybyś",
                 "gdy"
-            ]
+            ],
+            "rule": "Spójnik: gdy + by"
         },
         {
             "title": "Tryb warunkowy",
@@ -1235,7 +1329,8 @@
                 "nie żałowałabym",
                 "nie żałował",
                 "nie żałuję"
-            ]
+            ],
+            "rule": "Tryb warunkowy: pisownia łączna 'by'"
         },
         {
             "title": "Tryb warunkowy",
@@ -1248,7 +1343,8 @@
                 "ucieszyłby się",
                 "ucieszy się",
                 "ucieszyłaby"
-            ]
+            ],
+            "rule": "Tryb warunkowy: -ła + by ('się' osobno)"
         }
     ],
     "czasPrzeszly": [
@@ -1263,7 +1359,8 @@
                 "czytała",
                 "czytałem",
                 "czytać"
-            ]
+            ],
+            "rule": "Czas przeszły: on → -ł"
         },
         {
             "title": "Czas przeszły",
@@ -1276,7 +1373,8 @@
                 "czytał",
                 "czytałam",
                 "czytałaś"
-            ]
+            ],
+            "rule": "Czas przeszły: ona → -ła"
         },
         {
             "title": "Czas przeszły",
@@ -1289,7 +1387,8 @@
                 "chodziłam",
                 "chodził",
                 "chodziłeś"
-            ]
+            ],
+            "rule": "Czas przeszły: ja (m) → -łem"
         },
         {
             "title": "Czas przeszły",
@@ -1302,7 +1401,8 @@
                 "chodziłem",
                 "chodziła",
                 "chodziłaś"
-            ]
+            ],
+            "rule": "Czas przeszły: ja (f) → -łam"
         },
         {
             "title": "Czas przeszły",
@@ -1315,7 +1415,8 @@
                 "szły",
                 "szedł",
                 "szła"
-            ]
+            ],
+            "rule": "Czas przeszły: oni → -li"
         },
         {
             "title": "Czas przeszły",
@@ -1328,7 +1429,8 @@
                 "szli",
                 "szedł",
                 "szła"
-            ]
+            ],
+            "rule": "Czas przeszły: one → -ły"
         },
         {
             "title": "Czas przeszły – e→a",
@@ -1341,7 +1443,8 @@
                 "rozumieł",
                 "rozumiął",
                 "rozumiała"
-            ]
+            ],
+            "rule": "Oboczność e→a: l.poj. ma 'a'"
         },
         {
             "title": "Czas przeszły – e→a",
@@ -1354,7 +1457,8 @@
                 "widział",
                 "widziął",
                 "widziela"
-            ]
+            ],
+            "rule": "Oboczność e→a: l.poj. ma 'a'"
         },
         {
             "title": "Czas przeszły – e→a",
@@ -1367,7 +1471,8 @@
                 "musiełem",
                 "musiąłem",
                 "musiałam"
-            ]
+            ],
+            "rule": "Oboczność e→a: l.poj. ma 'a'"
         },
         {
             "title": "Czas przeszły – e→a",
@@ -1380,7 +1485,8 @@
                 "umiałeś",
                 "umielaś",
                 "umiałam"
-            ]
+            ],
+            "rule": "Oboczność e→a: l.poj. ma 'a'"
         },
         {
             "title": "Czas przeszły – e→a",
@@ -1393,7 +1499,8 @@
                 "siedział",
                 "siedzieła",
                 "siedziałam"
-            ]
+            ],
+            "rule": "Oboczność e→a: l.poj. ma 'a'"
         },
         {
             "title": "Czas przeszły – e→a",
@@ -1406,7 +1513,8 @@
                 "słyszałaś",
                 "słyszełeś",
                 "słyszałem"
-            ]
+            ],
+            "rule": "Oboczność e→a: l.poj. ma 'a'"
         },
         {
             "title": "Czas przeszły – ą/ę",
@@ -1419,7 +1527,8 @@
                 "wzięł",
                 "wzięła",
                 "wziąć"
-            ]
+            ],
+            "rule": "Oboczność ą→ę: on/ja(m)/ty(m) ma 'ą'"
         },
         {
             "title": "Czas przeszły – ą/ę",
@@ -1432,7 +1541,8 @@
                 "wziął",
                 "wziąła",
                 "wzięłam"
-            ]
+            ],
+            "rule": "Oboczność ą→ę: ona/one ma 'ę'"
         },
         {
             "title": "Czas przeszły – ą/ę",
@@ -1445,7 +1555,8 @@
                 "zamknął",
                 "zamknęły",
                 "zamknęłam"
-            ]
+            ],
+            "rule": "Oboczność ą→ę: ona/one ma 'ę'"
         },
         {
             "title": "Czas przeszły – ą/ę",
@@ -1458,7 +1569,8 @@
                 "zaczęłem",
                 "zaczął",
                 "zaczęłam"
-            ]
+            ],
+            "rule": "Oboczność ą→ę: on/ja(m)/ty(m) ma 'ą'"
         },
         {
             "title": "Czas przeszły – ą/ę",
@@ -1471,7 +1583,8 @@
                 "zacząłam",
                 "zaczęłem",
                 "zaczęła"
-            ]
+            ],
+            "rule": "Oboczność ą→ę: ja(f) ma 'ę'"
         },
         {
             "title": "Czas przeszły – ą/ę",
@@ -1484,7 +1597,8 @@
                 "pojęł",
                 "pojęła",
                 "pojąć"
-            ]
+            ],
+            "rule": "Oboczność ą→ę: on/ja(m)/ty(m) ma 'ą'"
         },
         {
             "title": "Czas przeszły – e→a",
@@ -1497,7 +1611,8 @@
                 "zapomnieł",
                 "zapomniął",
                 "zapomniała"
-            ]
+            ],
+            "rule": "Oboczność e→a: l.poj. ma 'a'"
         },
         {
             "title": "Czas przeszły – e→a",
@@ -1510,7 +1625,8 @@
                 "zapomniał",
                 "zapomnieła",
                 "zapomniła"
-            ]
+            ],
+            "rule": "Oboczność e→a: l.poj. ma 'a'"
         },
         {
             "title": "Czas przeszły – e→a",
@@ -1523,7 +1639,8 @@
                 "pachnieło",
                 "pachniąło",
                 "pachniał"
-            ]
+            ],
+            "rule": "Oboczność e→a: l.poj. ma 'a'"
         },
         {
             "title": "Czas przeszły – e→a",
@@ -1536,7 +1653,8 @@
                 "miełem",
                 "miałam",
                 "miałeś"
-            ]
+            ],
+            "rule": "Oboczność e→a: l.poj. ma 'a'"
         },
         {
             "title": "Czas przeszły – e→a",
@@ -1549,7 +1667,8 @@
                 "miałeś",
                 "miełaś",
                 "miałam"
-            ]
+            ],
+            "rule": "Oboczność e→a: l.poj. ma 'a'"
         },
         {
             "title": "Czas przeszły – ą/ę",
@@ -1562,7 +1681,8 @@
                 "zajęł",
                 "zajęła",
                 "zająć"
-            ]
+            ],
+            "rule": "Oboczność ą→ę: on/ja(m)/ty(m) ma 'ą'"
         },
         {
             "title": "Czas przeszły – ą/ę",
@@ -1575,7 +1695,8 @@
                 "zająła",
                 "zajęłam",
                 "zajął"
-            ]
+            ],
+            "rule": "Oboczność ą→ę: ona/one ma 'ę'"
         },
         {
             "title": "Czas przeszły",
@@ -1588,7 +1709,8 @@
                 "piły",
                 "pił",
                 "piła"
-            ]
+            ],
+            "rule": "Czas przeszły: oni → -li"
         },
         {
             "title": "Czas przeszły",
@@ -1601,7 +1723,8 @@
                 "pilnowali",
                 "pilnował",
                 "pilnowała"
-            ]
+            ],
+            "rule": "Czas przeszły: one → -ły"
         },
         {
             "title": "Czas przeszły",
@@ -1614,7 +1737,8 @@
                 "sprzedałyście",
                 "sprzedali",
                 "sprzedacie"
-            ]
+            ],
+            "rule": "Czas przeszły: wy (m) → -liście"
         }
     ],
     "czasPrzyszly": [
@@ -1629,7 +1753,8 @@
                 "będę pisać",
                 "piszę",
                 "napisałem"
-            ]
+            ],
+            "rule": "Dokonany: bez 'będę', jak teraźniejszy"
         },
         {
             "title": "Czas przyszły",
@@ -1642,7 +1767,8 @@
                 "nauczę się",
                 "uczę się",
                 "uczyłem się"
-            ]
+            ],
+            "rule": "Niedokonany: być + bezokolicznik"
         },
         {
             "title": "Czas przyszły",
@@ -1655,7 +1781,8 @@
                 "będziesz dzwonić",
                 "dzwonisz",
                 "zadzwoniłeś"
-            ]
+            ],
+            "rule": "Dokonany: bez 'będę', jak teraźniejszy"
         },
         {
             "title": "Czas przyszły",
@@ -1668,7 +1795,8 @@
                 "zrobisz",
                 "robisz",
                 "robiłeś"
-            ]
+            ],
+            "rule": "Niedokonany: być + bezokolicznik"
         },
         {
             "title": "Czas przyszły",
@@ -1681,7 +1809,8 @@
                 "będzie kończyć",
                 "kończy",
                 "skończył"
-            ]
+            ],
+            "rule": "Dokonany: bez 'będę', jak teraźniejszy"
         },
         {
             "title": "Czas przyszły",
@@ -1694,7 +1823,8 @@
                 "popracuje",
                 "pracuje",
                 "pracował"
-            ]
+            ],
+            "rule": "Niedokonany: być + bezokolicznik"
         },
         {
             "title": "Czas przyszły",
@@ -1707,7 +1837,8 @@
                 "będziemy iść",
                 "idziemy",
                 "szliśmy"
-            ]
+            ],
+            "rule": "Dokonany: bez 'będę', jak teraźniejszy"
         },
         {
             "title": "Czas przyszły",
@@ -1720,7 +1851,8 @@
                 "pojedziemy",
                 "jeździmy",
                 "jeździliśmy"
-            ]
+            ],
+            "rule": "Niedokonany: być + bezokolicznik"
         },
         {
             "title": "Czas przyszły",
@@ -1733,7 +1865,8 @@
                 "będziecie robić",
                 "robicie",
                 "zrobiliście"
-            ]
+            ],
+            "rule": "Dokonany: bez 'będę', jak teraźniejszy"
         },
         {
             "title": "Czas przyszły",
@@ -1746,7 +1879,8 @@
                 "zamieszkają",
                 "mieszkają",
                 "mieszkali"
-            ]
+            ],
+            "rule": "Niedokonany: być + bezokolicznik"
         },
         {
             "title": "Czas przyszły",
@@ -1759,7 +1893,8 @@
                 "będę czytać",
                 "czytam",
                 "przeczytałem"
-            ]
+            ],
+            "rule": "Dokonany: bez 'będę', jak teraźniejszy"
         },
         {
             "title": "Czas przyszły",
@@ -1772,7 +1907,8 @@
                 "pobiegnie",
                 "biega",
                 "biegała"
-            ]
+            ],
+            "rule": "Niedokonany: być + bezokolicznik"
         },
         {
             "title": "Czas przyszły",
@@ -1785,7 +1921,8 @@
                 "będę kupować",
                 "kupuję",
                 "kupiłem"
-            ]
+            ],
+            "rule": "Dokonany: bez 'będę', jak teraźniejszy"
         },
         {
             "title": "Czas przyszły",
@@ -1798,7 +1935,8 @@
                 "kupię",
                 "kupuję",
                 "kupiłem"
-            ]
+            ],
+            "rule": "Niedokonany: być + bezokolicznik"
         },
         {
             "title": "Czas przyszły",
@@ -1811,7 +1949,8 @@
                 "będziesz pomagać",
                 "pomagasz",
                 "pomogłeś"
-            ]
+            ],
+            "rule": "Dokonany: bez 'będę', jak teraźniejszy"
         },
         {
             "title": "Czas przyszły",
@@ -1824,7 +1963,8 @@
                 "pomożesz",
                 "pomagasz",
                 "pomagałeś"
-            ]
+            ],
+            "rule": "Niedokonany: być + bezokolicznik"
         },
         {
             "title": "Czas przyszły",
@@ -1837,7 +1977,8 @@
                 "będzie zwiedzać",
                 "zwiedza",
                 "zwiedził"
-            ]
+            ],
+            "rule": "Dokonany: bez 'będę', jak teraźniejszy"
         },
         {
             "title": "Czas przyszły",
@@ -1850,7 +1991,8 @@
                 "zwiedzi",
                 "zwiedza",
                 "zwiedzał"
-            ]
+            ],
+            "rule": "Niedokonany: być + bezokolicznik"
         },
         {
             "title": "Czas przyszły",
@@ -1863,7 +2005,8 @@
                 "będziemy dostawać",
                 "dostajemy",
                 "dostaliśmy"
-            ]
+            ],
+            "rule": "Dokonany: bez 'będę', jak teraźniejszy"
         },
         {
             "title": "Czas przyszły",
@@ -1876,7 +2019,8 @@
                 "dostaniemy",
                 "dostajemy",
                 "dostawaliśmy"
-            ]
+            ],
+            "rule": "Niedokonany: być + bezokolicznik"
         },
         {
             "title": "Czas przyszły",
@@ -1889,7 +2033,8 @@
                 "będziecie darować",
                 "darujecie",
                 "podarowaliście"
-            ]
+            ],
+            "rule": "Dokonany: bez 'będę', jak teraźniejszy"
         },
         {
             "title": "Czas przyszły",
@@ -1902,7 +2047,8 @@
                 "pozazdroszczą",
                 "zazdroszczą",
                 "zazdrościli"
-            ]
+            ],
+            "rule": "Niedokonany: być + bezokolicznik"
         }
     ]
 }
