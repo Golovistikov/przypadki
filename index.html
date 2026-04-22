@@ -430,7 +430,17 @@
     }
 
     function finishQuestion(isCorrect, element) {
-        waitList.push(currentQuestion);
+        if (isCorrect) {
+            waitList.push(currentQuestion);
+        } else {
+            // Reinsert wrong answer at a random non-last position so it comes back soon but not immediately
+            if (activePool.length === 0) {
+                activePool = [currentQuestion];
+            } else {
+                const pos = Math.floor(Math.random() * activePool.length);
+                activePool.splice(pos, 0, currentQuestion);
+            }
+        }
         const feedback = document.getElementById('feedback-msg');
         if (isCorrect) {
             correctCount++;
