@@ -193,7 +193,7 @@
         }
         .rule-panel.hint {
             display: block;
-            opacity: 0.38;
+            opacity: 0.7;
         }
         .rule-panel.revealed {
             display: block;
@@ -284,7 +284,7 @@
     </div>
 
     <label class="rule-toggle">
-        <input type="checkbox" id="rule-checkbox" onchange="toggleRule(this.checked)">
+        <input type="checkbox" id="rule-checkbox" checked onchange="toggleRule(this.checked)">
         Pokaż zasadę
     </label>
 
@@ -322,7 +322,7 @@
     let currentQuestion = {};
     let activePool = [];
     let waitList = [];
-    let showRule = false;
+    let showRule = true;
 
     function toggleRule(checked) {
         showRule = checked;
