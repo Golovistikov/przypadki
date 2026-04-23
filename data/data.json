@@ -1238,7 +1238,7 @@
             "title": "Tryb warunkowy",
             "number": "ty (m)",
             "context": "Czy ___ się moim psem w weekend?",
-            "baseWord": "(zająć się)",
+            "baseWord": "(zająć)",
             "answer": "zająłbyś",
             "options": [
                 "zająłbyś",
